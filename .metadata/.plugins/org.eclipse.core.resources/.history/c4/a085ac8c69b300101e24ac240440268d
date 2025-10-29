@@ -1,0 +1,37 @@
+package com.miempresa.segundoproyecto;
+
+import java.util.Random;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/dado")
+public class DadoController {
+	
+	public int dadoAleatorio() {
+		Random random = new Random();
+		return random.nextInt(1, 7);
+	}
+	
+	@GetMapping({"/uno", "/1"})
+	public String d1(Model model) {
+		int valor1 = dadoAleatorio();
+		model.addAttribute("titulo", "Dados");
+		model.addAttribute("cabecera", "Lanzando un dado al azar");
+		model.addAttribute("lanzamiento", valor1);
+		return "/dado/mostrar-lanzamientos";
+	}
+	
+	@GetMapping({"dos", "2"})
+	public String d2(Model model) {
+		int valor1 = dadoAleatorio();
+		int valor2 = dadoAleatorio();
+		int [] valores = {valor1, valor2};
+		model.addAttribute("lanzamientos", valores);
+		return "/dado/mostrar-lanzamientos";
+	}
+
+}

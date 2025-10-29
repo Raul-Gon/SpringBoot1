@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>LANZAR DADOS</title>
+	</head>
+	<body>
+		<h1 style="color: green; underline: 2px;">Lanzamiento de un Dado</h1>
+		<h2 th:text="${dado1}"></h2>
+	</body>
+</html>
