@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p th:if="${articulo != null}">
+			<span th:text="${articulo.nombre}"> </span>de color
+			<span th:text="${articulo.color}"></span>, hay una cantidad de 
+			<span th:text="${articulo.cantidad}"></span> y con un precio por unidad de 
+			<span th:text="${articulo.precio}"></span> €
+		</p>
+		
+		
+		
+	</body>
+</html>

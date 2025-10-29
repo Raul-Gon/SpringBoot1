@@ -1,0 +1,29 @@
+package com.miempresa.segundoproyecto.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/saludar")
+public class SaludoController {
+	
+	@GetMapping({"/1", "/uno", "/temprano"})
+	public String m1(Model model) {
+		model.addAttribute("mensaje", "Buenos días");
+		return "/saludo/saludo";
+	}
+	
+	@GetMapping({"/2", "/dos", "/tarde"})
+	public String m2(Model model) {
+		model.addAttribute("mensaje", "Buenas tardes");
+		return "saludo/saludo";
+	}
+	
+	@GetMapping({"/3", "/tres", "/noche"})
+	public String m3(Model model) {
+		model.addAttribute("mensaje", "Buenas noches");
+		return "saludo/saludo";
+	}
+}

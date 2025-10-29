@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+			* {
+				color: darkslategrey;
+			}
+			body {
+				background-color: lightblue;
+			}
+			h1 {
+				text-decoration: underline;
+			}
+			.mensajeNull {
+				color: crimson;
+			}
+			.dato {
+				color: olive;
+			}			
+		</style>
+		
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<h3 th:if="${animal == null}"><span class="mensajeNull" th:text="${mensaje}"></span></h3>
+		
+		<ul th:if="${animal != null}">
+			<li>Tipo: <span class="dato" th:text="${animal.getTipo()}"></span></li>
+			<li>Peso: <span class="dato" th:text="${animal.getPeso}"></span></li>
+			<li>Precio: <span class="dato" th:text="${animal.precio}"></span></li>
+		</ul>
+	</body>
+</html>

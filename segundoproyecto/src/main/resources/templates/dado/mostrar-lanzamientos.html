@@ -6,6 +6,10 @@
 	</head>
 	<body>
 		<h1 th:text="${cabecera}"></h1>
-		<p>La tirada que ha salido... <b th:text="${}"></b></p>		
+		<p th:if="${lanzamientos == null || lanzamientos.length == 0}">No hay dados lanzados ...</p>
+		<p th:if="${!(lanzamientos == null || lanzamientos.length == 0)}">La tirada que ha salido es ...
+			<span th:if="${lanzamientos.length == 1}"><b th:text="${lanzamientos[0]}"></b></span> 
+			<span th:if="${lanzamientos.length == 2}"><b th:text="${lanzamientos[0]}"></b> y <b th:text="${lanzamientos[1]}"></b></span> 
+		</p>		
 	</body>
 </html>
