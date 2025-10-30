@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.miempresa.segundoproyecto.model.Animal;
@@ -59,8 +60,7 @@ public class AnimalController {
 	}
 	
 	@GetMapping("/lista")
-	public String mostrarLista(Model model) {
-				
+	public String mostrarLista(Model model) {				
 		model.addAttribute("cabecera", "Mostrando lista de animales");
 		model.addAttribute("listaAnimales", listaAnimales);		
 		return "animal/lista-animales";
@@ -71,6 +71,20 @@ public class AnimalController {
 		model.addAttribute("mensaje", "No hay ningún ANIMAL para mostrar su información.");
 		model.addAttribute("cabecera", "Mostrando lista de animales");
 		model.addAttribute("listaAnimales", null);		
+		return "animal/lista-animales";
+	}
+	
+	@GetMapping("/lista/tipo/{tipo}")
+	public String m(Model model, @PathVariable String tipo) {
+		model.addAttribute("cabecera", "Mostrando lista de " + tipo);
+		List<Animal> listaFiltrada = new ArrayList<>();
+		for (Animal animal : listaAnimales) {
+			if(animal.getTipo().endsWith(tipo)) {
+				listaFiltrada.add(animal);
+			}
+		}
+
+		model.addAttribute("listaAnimales", listaFiltrada);		
 		return "animal/lista-animales";
 	}
 	

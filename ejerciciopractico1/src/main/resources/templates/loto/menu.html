@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+			body {
+				background-color: #D6D4D4;
+				display: flex;
+  				flex-direction: column;	
+  				align-items: center;
+  				gap: 10px;			
+			}
+			
+			img {
+				width: 400px;
+  				height: auto;
+  				margin-top: 80px;
+			}
+			
+			h3 {
+				color: #8A2BE2;
+			}			
+			
+			.menu {
+				margin-top: 40px;
+				display: flex;
+  				flex-direction: row;	
+				gap: 40px;
+			}
+			
+			.buttonNormal{
+				width: 150px;
+				height: 50px;
+				background-color: gray;
+				color: white;
+				border-radius: 5px;
+			}
+			.buttonNormal:hover {
+				background-color: white;
+				color: black;
+			}
+			
+			.homeButton {
+				width: 100%;
+				margin-top: 100px;
+				margin-right: 50px;
+				display: flex;
+  				flex-direction: row;	
+				justify-content: right;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<img th:src="@{/img/logoloto.png}" alt="logo de la pagina" />
+		<h1 th:text="${cabecera}"></h1>
+		<h3 th:text="${frase}"></h3>
+		
+		<div class="menu">
+			<a th:href="@{/home/loto/genera/49/6/spain}"><button class="buttonNormal">SPAIN</button></a>
+			<a th:href="@{/home/loto/genera/49/6/germany}"><button class="buttonNormal">GERMANY</button></a>
+			<a th:href="@{/home/loto/genera/90/6/france}"><button class="buttonNormal">FRANCE</button></a>
+			<a th:href="@{/home/loto/genera/59/5/italy}"><button class="buttonNormal">ITALY</button></a>
+		</div>
+		<div class="homeButton">
+			<a th:href="@{/home}"><button class="buttonNormal">Menu principal</button></a>
+		</div>
+	</body>
+</html>

@@ -36,7 +36,7 @@ public class ArticuloController {
 	
 	@GetMapping("/ninguno")
 	public String mostrarNingunArticulo(Model model) {
-		model.addAttribute("cabecera", "Mostrando ningun artículo");
+		model.addAttribute("cabecera", "Mostrando ningun tipo artículo");
 		model.addAttribute("articulo", null);		
 		return "articulo/muestra-articulos";
 	}
