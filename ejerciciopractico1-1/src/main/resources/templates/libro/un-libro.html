@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		
+		<img th:src="@{/img/logo-libro.png}" /> <br>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<ul>
+			<li>ID: <span th:text="${libro.id}"></span></li>
+			<li>CANTIDAD: <span th:text="${libro.cantidad}"></span></li>
+			<li>AUTOR: <span th:text="${libro.autor}"></span></li>
+			<li>TITULO: <span th:text="${libro.titulo}"></span></li>
+			<li>GENERO: <span th:text="${libro.genero}"></span></li>
+		</ul>
+		
+		<div class="botonMenu">
+			<a th:href="@{/libro/menu}">MENÚ DE LIBROS</a>		
+		</div>
+
+	</body>
+</html>

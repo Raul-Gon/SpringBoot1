@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		
+		<img th:src="@{/img/logo-home3.png}" /> <br>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum nisi sem, ac lacinia nisl imperdiet sit amet. Donec at quam rutrum, consectetur mi vitae, 
+			rutrum orci. Quisque eu feugiat lectus. Nulla mattis pretium erat a dapibus. Etiam finibus ornare ipsum, ut dapibus metus faucibus sed. Morbi ultrices laoreet mi, 
+			nec pretium lorem. Vivamus congue, nibh non scelerisque suscipit, justo lorem vehicula sem, vel consequat nisl augue sit amet odio. Etiam augue orci, molestie nec elit id,
+			faucibus volutpat risus.
+		</p>
+		
+		<div class="menuBotones">
+			<a th:href="@{/loto/menu}">MENÚ LOTO</a>
+			<a th:href="@{/libro/menu}">MENÚ LIBROS</a>
+			<a th:href="@{/juego/menu}">MENÚ JUEGO</a>
+		</div>
+		
+		<p><i th:text="${proverbio[0]}"></i></p>
+		<p><i th:text="${proverbio[1]}"></i></p>
+		
+	</body>
+</html>

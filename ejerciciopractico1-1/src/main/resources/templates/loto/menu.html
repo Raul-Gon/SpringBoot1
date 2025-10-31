@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		
+		<img th:src="@{/img/logo-loto.png}" /> <br>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<div class="menuBotones">
+			<a th:href="@{/loto/genera/49/6/spain}">LOTO ESPAÑOLA</a>
+			<a th:href="@{/loto/genera/49/6/germany}">LOTO ALEMANA</a>
+			<a th:href="@{/loto/genera/90/6/france}">LOTO FRANCESA</a>
+			<a th:href="@{/loto/genera/50/5/italy}">LOTO ITALIANA</a>
+		</div>
+		
+		<div class="botonMenu">
+			<a th:href="@{/}">HOME</a>		
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+<body>
+	<h1 th:text="${cabecera}"></h1>
+	<div class="contenedorBola">
+		<button class="numeros" th:each="bola : ${sorteo}" th:text="${bola}"></button>
+	</div>
+	
+	<div class="botonMenu">
+			<a th:href="@{/loto/menu}">MENU LOTERIAS</a>		
+		</div>
+</body>
+</html>
