@@ -1,5 +1,9 @@
 package com.miempresa.ejerciciopractico1corregido.model;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Libro {
 	
 	private static int nextId = 1;
@@ -17,24 +21,24 @@ public class Libro {
 		    new Libro(6, "Jane Austen", "Orgullo y prejuicio", "Romance"),
 		    new Libro(5, "F. Scott Fitzgerald", "El gran Gatsby", "Drama"),
 		    new Libro(7, "Miguel de Cervantes", "Don Quijote de la Mancha", "Clásico"),
-		    new Libro(4, "Franz Kafka", "La metamorfosis", "Filosofía / Existencialismo"),
+		    new Libro(4, "Franz Kafka", "La metamorfosis", "Filosofía"),
 		    new Libro(3, "Harper Lee", "Matar a un ruiseñor", "Ficción social"),
 		    new Libro(6, "Ernest Hemingway", "El viejo y el mar", "Aventura"),
 		    new Libro(5, "Leo Tolstói", "Guerra y paz", "Histórico"),
 		    new Libro(4, "Mark Twain", "Las aventuras de Tom Sawyer", "Aventura"),
-		    new Libro(3, "Albert Camus", "El extranjero", "Filosofía / Existencialismo"),
-		    new Libro(7, "Antoine de Saint-Exupéry", "El principito", "Fábula / Filosofía"),
+		    new Libro(3, "Albert Camus", "El extranjero", "Filosofía"),
+		    new Libro(7, "Antoine de Saint-Exupéry", "El principito", "Filosofía"),
 		    new Libro(5, "Paulo Coelho", "El alquimista", "Ficción espiritual"),
 		    new Libro(6, "Homero", "La Odisea", "Épico"),
 		    new Libro(3, "Victor Hugo", "Los miserables", "Drama histórico"),
-		    new Libro(4, "Mary Shelley", "Frankenstein", "Terror / Ciencia ficción"),
+		    new Libro(4, "Mary Shelley", "Frankenstein", "Ciencia ficción"),
 		    new Libro(5, "Arthur Conan Doyle", "Sherlock Holmes: Estudio en escarlata", "Misterio"),
-		    new Libro(4, "Oscar Wilde", "El retrato de Dorian Gray", "Filosofía / Drama"),
+		    new Libro(4, "Oscar Wilde", "El retrato de Dorian Gray", "Filosofía"),
 		    new Libro(6, "Charles Dickens", "Oliver Twist", "Drama social"),
-		    new Libro(5, "Herman Melville", "Moby Dick", "Aventura / Filosofía"),
-		    new Libro(3, "Dante Alighieri", "La Divina Comedia", "Poesía / Religión"),
+		    new Libro(5, "Herman Melville", "Moby Dick", "Aventura"),
+		    new Libro(3, "Dante Alighieri", "La Divina Comedia", "Poesía"),
 		    new Libro(4, "George R.R. Martin", "Juego de Tronos", "Fantasía épica"),
-		    new Libro(7, "Sun Tzu", "El arte de la guerra", "Estrategia / Filosofía")
+		    new Libro(7, "Sun Tzu", "El arte de la guerra", "Filosofía")
 		};
 	
 	public static Libro getLibroById(int id) {
@@ -45,6 +49,20 @@ public class Libro {
 		}
 		
 		return null;
+	}
+	
+	public static List<Libro> getLibrosByGenero(String genero) {
+		List<Libro> resultado = new ArrayList<>();
+		if(genero == null) {
+			return resultado;
+		}
+		for(Libro libro : biblioteca) {
+			if ( genero.equalsIgnoreCase(libro.genero)) {
+				resultado.add(libro);
+			}
+		}
+		
+		return resultado;
 	}
 	
 	public Libro(int cantidad, String autor, String titulo, String genero) {
@@ -76,8 +94,8 @@ public class Libro {
 		return genero;
 	}
 
-	public static Libro[] getBiblioteca() {
-		return biblioteca;
+	public static List<Libro> getBiblioteca() {
+		return Arrays.asList(biblioteca);
 	}		
 	
 }

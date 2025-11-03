@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		
+		<h1 th:text="${cabecera}"></h1>
+		
+		<img th:src="@{'/img/juego/' + ${ciudad.foto}}" />
+		
+		<form action="/juego/validar-respuesta">
+			<input type="hidden" name="id" th:value="${ciudad.id}" />
+			<span>Sevilla</span><input name="solucion"  type="radio" value="sevilla" /><br/>
+			<span>Madrid</span><input name="solucion"  type="radio" value="madrid" /><br/>
+			<span>Toledo</span><input name="solucion"  type="radio" value="toledo" /><br/>
+			<button>Probar Suerte</button>			
+		</form>
+		
+		<div class="botonMenu">
+			<a th:href="@{/juego/menu}">MENU JUEGO</a>		
+		</div>
+		
+	</body>
+</html>

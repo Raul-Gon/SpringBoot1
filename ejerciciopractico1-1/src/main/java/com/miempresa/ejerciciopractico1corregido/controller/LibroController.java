@@ -26,10 +26,17 @@ public class LibroController {
 	}
 	
 	@GetMapping("/id/{id}")
-	public String listaLibros(Model model, @PathVariable int id) {
+	public String unLibros(Model model, @PathVariable int id) {
 		model.addAttribute("cabecera", "Datos de un libro de la biblioteca: ");
 		model.addAttribute("libro", Libro.getLibroById(id));
 		return "libro/un-libro";
+	}
+	
+	@GetMapping("/genero/{genero}")
+	public String librosByGenero(Model model, @PathVariable String genero) {
+		model.addAttribute("cabecera", "Listado de libros de genero " + genero + ":");		
+		model.addAttribute("libros", Libro.getLibrosByGenero(genero));
+		return "libro/listado";
 	}
 
 }
