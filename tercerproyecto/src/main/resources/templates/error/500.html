@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ERROR 500</title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		
+		<img th:src="@{/img/error/error500.png}" /> <br>
+		<p>error: </p><span th:text="${error}"></span>
+		<p>status: </p><span th:text="${status}"></span>
+		<p>timestamp: </p><span th:text="${timestamp}"></span>
+		<p>trace: </p><span th:text="${trace}"></span>
+
+	</body>
+</html>

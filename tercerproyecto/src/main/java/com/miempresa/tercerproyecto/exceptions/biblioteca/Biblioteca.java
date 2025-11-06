@@ -55,7 +55,6 @@ public class Biblioteca {
 		for (Libro libro : listaBiblioteca) {
 			if (libro.getTitulo().equals(lib.getTitulo())) {
 				System.out.println("Lo sentimos pero el libro ya existe en la Biblioteca.");
-				return false;
 			}
 		}
 	}
