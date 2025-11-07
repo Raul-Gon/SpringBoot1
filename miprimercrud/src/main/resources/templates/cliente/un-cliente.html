@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p th:if="${cliente == null}">Cliente no existente.</p>
+		
+		<ul th:if="${cliente != null}">
+			<li>
+				<p><b>ID: </b><span th:text="${cliente.id}"></span></p>
+			</li>
+			<li>
+				<p><b>Nombre: </b><span th:text="${cliente.nombre}"></span></p>
+			</li>
+			<li>
+				<p><b>Apellido: </b><span th:text="${cliente.apellido}"></span></p>
+			</li>
+			<li>
+				<p><b>Email: </b><span th:text="${cliente.email}"></span></p>
+			</li>
+		</ul>
+	</body>
+</html>
