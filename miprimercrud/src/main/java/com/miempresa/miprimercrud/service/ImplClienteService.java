@@ -1,5 +1,7 @@
 package com.miempresa.miprimercrud.service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,4 +21,18 @@ public class ImplClienteService implements IClienteService {
 		return clienteRepository.findById(id).orElse(null);	
 	}
 
+	@Override
+	public List<Cliente> dameTodosLosClientes(){
+		return clienteRepository.findAll();
+	}
+	
+	@Override
+	public void borrarUnCliente(Long id) {
+		clienteRepository.deleteById(id);
+	}
+	
+	@Override
+	public Cliente addCliente(Cliente cliente) {
+		return clienteRepository.save(cliente);
+	}
 }
