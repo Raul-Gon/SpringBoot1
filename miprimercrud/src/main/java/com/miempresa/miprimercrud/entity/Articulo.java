@@ -1,24 +1,28 @@
 package com.miempresa.miprimercrud.entity;
 
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-@Entity
+@Entity  
 @Table(name = "articulos")
-public class Articulo {
+public class Articulo implements Serializable {
 	
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L;  //define un identificador único para la versión de una clase que se puede serializar
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)	
+	@Id  //le dice que es la clave de la tabla
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //le dice a la base de datos que el id lo genera ella y es la clave	
 	private Long id;
 	
+	@Column(name="nombre") // si el nombre de abajo fuera nombrePrimero para la base de datos al poner esto usaria la columna nombre
 	private String nombre;
 	private double precio;
 	private byte descuento;
@@ -71,6 +75,12 @@ public class Articulo {
 	}
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Articulo [id=" + id + ", nombre=" + nombre + ", precio=" + precio + ", descuento=" + descuento
+				+ ", stock=" + stock + ", tipo=" + tipo + "]";
 	}
 	
 	

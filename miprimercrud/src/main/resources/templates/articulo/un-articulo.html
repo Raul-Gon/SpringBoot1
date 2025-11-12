@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p th:if="${articulo == null}">Articulo no existente.</p>
+		
+		<ul th:if="${articulo != null}">
+			<li>
+				<p><b>ID: </b><span th:text="${articulo.id}"></span></p>
+			</li>
+			<li>
+				<p><b>NOMBRE: </b><span th:text="${articulo.nombre}"></span></p>
+			</li>
+			<li>
+				<p><b>PRECIO: </b><span th:text="${articulo.precio}"></span></p>
+			</li>
+			<li>
+				<p><b>DESCUENTO: </b><span th:text="${articulo.descuento}"></span></p>
+			</li>
+			<li>
+				<p><b>STOCK: </b><span th:text="${articulo.stock}"></span></p>
+			</li>
+			<li>
+				<p><b>TIPO: </b><span th:text="${articulo.tipo}"></span></p>
+			</li>
+		</ul>
+	</body>
+</html>

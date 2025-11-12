@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<a th:href="@{/articulo/form/-1}">AÑADIR UN ARTICULO</a>
+		
+		<p th:if="${articulos == null || articulos.size() == 0}">No hay articulos que mostrar.</p>		
+		<table border="1" style="border-collapse: collapse" th:if="${!(articulos == null || articulos.size() == 0)}">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>NOMBRE</th>
+					<th>PRECIO</th>
+					<th>DESCUENTO</th>
+					<th>STOCK</th>
+					<th>TIPO</th>
+					<th>ACCIONES</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="articulo : ${articulos}")>
+					<td th:text="${articulo.id}"></td>
+					<td th:text="${articulo.nombre}"></td>
+					<td th:text="${articulo.precio}"></td>
+					<td th:text="${articulo.descuento}"></td>
+					<td th:text="${articulo.stock}"></td>
+					<td>
+						<a th:href="@{'/articulo/tipo/' + ${articulo.tipo}}" th:text="${articulo.tipo}"></a>
+					</td>
+					<td>
+						<a th:href="@{'/articulo/id/' + ${articulo.id}}">Ver</a>
+						<a th:href="@{'/articulo/borrar/id/' + ${articulo.id}}">Borrar</a>
+						<a th:href="@{'/articulo/form/' + ${articulo.id}}">Editar</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</body>
+</html>
