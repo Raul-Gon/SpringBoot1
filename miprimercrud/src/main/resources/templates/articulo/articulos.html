@@ -7,7 +7,7 @@
 	<body>
 		<h1 th:text="${cabecera}"></h1>
 		
-		<a th:href="@{/articulo/form/-1}">AÑADIR UN ARTICULO</a>
+		<a th:href="@{/articulo/form/new}">AÑADIR UN ARTICULO</a>
 		
 		<p th:if="${articulos == null || articulos.size() == 0}">No hay articulos que mostrar.</p>		
 		<table border="1" style="border-collapse: collapse" th:if="${!(articulos == null || articulos.size() == 0)}">
@@ -35,7 +35,7 @@
 					<td>
 						<a th:href="@{'/articulo/id/' + ${articulo.id}}">Ver</a>
 						<a th:href="@{'/articulo/borrar/id/' + ${articulo.id}}">Borrar</a>
-						<a th:href="@{'/articulo/form/' + ${articulo.id}}">Editar</a>
+						<a th:href="@{'/articulo/form/id/' + ${articulo.id}}">Editar</a>
 					</td>
 				</tr>
 			</tbody>

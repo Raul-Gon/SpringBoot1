@@ -55,7 +55,7 @@ public class ArticuloController {
 	}
 	
 	@GetMapping("/form/id/{id}")
-	public String formArticuloGet(Model model, @PathVariable long id) {
+	public String formArticuloGetById(Model model, @PathVariable long id) {
 		Articulo articulo = id == -1 ? new Articulo() : articuloService.dameArticuloPorId(id);		
 		model.addAttribute("cabecera", "Formulario de articulo:");
 		model.addAttribute("articulo", articulo);	
@@ -63,7 +63,7 @@ public class ArticuloController {
 	}
 	
 	@GetMapping("/form/new")
-	public String formArticuloGet(Model model) {	
+	public String formArticuloGetNuevo(Model model) {	
 		model.addAttribute("cabecera", "Formulario de articulo:");
 		model.addAttribute("articulo", new Articulo());	
 		return "articulo/form";

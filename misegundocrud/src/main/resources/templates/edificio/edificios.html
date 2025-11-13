@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body class="bodyNormal">
+		
+		<img th:src="@{/img/listado.png}" alt="imagen de un listado" /> <br>
+		
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p th:if="${edificios == null || edificios.size() == 0}">No hay edificios que mostrar.</p>		
+		<table border="1" style="border-collapse: collapse" th:if="${!(edificios == null || edificios.size() == 0)}">
+			<thead>
+				<tr>
+					<th>NÚMERO PLANTAS</th>
+					<th>HABITABLE</th>
+					<th>TIPO</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="edificio : ${edificios}")>
+					<td th:text="${edificio.numeroPlantas == 1 ? edificio.numeroPlantas + ' planta' : edificio.numeroPlantas + ' plantas'}"></td>
+					<td th:text="${edificio.habitable ? 'si' : 'no'}"></td>
+					<td th:text="${edificio.tipo == 'l' ? 'local' : edificio.tipo}"></td>
+				</tr>
+			</tbody>
+		</table>
+				
+		<div class="divBotonHome">
+			<button>HOME</button>
+		</div>
+		
+	</body>
+</html>

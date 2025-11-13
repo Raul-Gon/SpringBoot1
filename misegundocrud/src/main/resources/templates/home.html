@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body class="bodyHome">
+		
+		<img th:src="@{/img/edificio.png}" alt="imagen de edificio" /> <br>
+		
+		<h1 th:text="${cabecera}"></h1>
+		
+		<div class="menuBotones">
+			<a th:href="@{/edificio/listado}"><button>LISTADO EDIFICIOS</button></a>
+			<a th:href="@{#}"><button>VER EDIFICIO</button></a>
+			<a th:href="@{#}"><button>AÑADIR EDIFICIO</button></a>
+			<a th:href="@{#}"><button>BORRAR EDIFICIO</button></a>
+		</div>
+	
+	</body>
+</html>

@@ -31,6 +31,11 @@ public class ImplArticuloService implements IArticuloService {
 
 	@Override
 	public Articulo addArticulo(Articulo articulo) {
+		if(articulo == null) return null;
+		if(articulo.getId() == null) return articuloRepository.save(articulo); // añade o sustitulle el articulo, dependidendo de si tiene id, si lo tiene lo modifica, sino lo añade con un id nuevo.
+		if(articuloRepository.findById(articulo.getId()).orElse(null) == null) {
+			articulo.setId(null);
+		}
 		return articuloRepository.save(articulo); // añade o sustitulle el articulo, dependidendo de si tiene id, si lo tiene lo modifica, sino lo añade con un id nuevo.
 	}
 

@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.bodyHome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F5F5F5;
+}
+
+.bodyNormal {
+	background-color: #F5F5F5;
+}
+
+h1{
+	color: #708090;
+}
+
+img {
+	width: 300px;
+	margin-top: 100px;
+}
+
+.menuBotones {
+	 display: flex;
+	 flex-direction: row;
+	 gap: 50px;
+}
+
+.botonMenu {
+	width: 100%;
+	margin-right: 100px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+button {
+	padding: 20px;
+	margin-top: 100px;
+	background: #483D8B;
+	color: white;
+	border-radius: 5px;
+}
+button:hover {
+	transform: scale(1.3);
+}
