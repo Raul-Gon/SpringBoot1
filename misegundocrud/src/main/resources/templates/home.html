@@ -8,6 +8,7 @@
 		
 	</head>
 	<body class="bodyHome">
+		<header th:replace="~{layout/base :: header-comun}"></header>
 		
 		<img th:src="@{/img/edificio.png}" alt="imagen de edificio" /> <br>
 		
@@ -20,5 +21,6 @@
 			<a th:href="@{#}"><button>BORRAR EDIFICIO</button></a>
 		</div>
 	
+		<footer th:replace="~{layout/base :: footer-comun}"></footer>
 	</body>
 </html>

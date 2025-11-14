@@ -3,8 +3,28 @@
 	<head>
 		<meta charset="UTF-8">
 		<title th:text="${titulo}"></title>
+		
+		<style>
+			.succes {
+				background: Yellow;
+				border-radius: 5px;
+				width: 80%;
+				padding: 3px 20px;
+			}
+		.warning{
+			background: red;
+				border-radius: 5px;
+				width: 80%;
+				padding: 3px 20px;
+		}	
+			
+		</style>
+		
 	</head>
 	<body>
+	<div class="warning" th:if="${warning != null}" th:text="${warning}"></div>
+	<div class="succes" th:if="${succes != null}" th:text="${succes}"></div>
+		<header th:replace="~{layout/base :: header-comun}"></header>
 		<h1 th:text="${cabecera}"></h1>
 		
 		<a th:href="@{/cliente/form/-1}">AÑADIR UN CLIENTE</a>
@@ -34,6 +54,8 @@
 				</tr>
 			</tbody>
 		</table>
+		
+		<footer th:replace="~{layout/base :: footer-comun}"></footer>
 		
 	</body>
 </html>

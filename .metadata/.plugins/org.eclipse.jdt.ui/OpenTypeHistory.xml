@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=misegundocrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.segundocrud.service{IEdificioService.java[IEdificioService" modifiers="513" timestamp="1763050853759"/>
+    <typeInfo handle="=misegundocrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.segundocrud.service{IEdificioService.java[IEdificioService" modifiers="513" timestamp="1763056999867"/>
+    <typeInfo handle="=recopilacioncrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.recopilacioncrud.service{IPreguntaService.java[IPreguntaService" modifiers="513" timestamp="1763145457102"/>
 </typeInfoHistroy>

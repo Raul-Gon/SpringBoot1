@@ -4,15 +4,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.miempresa.miprimercrud.entity.Cliente;
-import com.miempresa.miprimercrud.repository.IClienteRepository;
 import com.miempresa.miprimercrud.service.IClienteService;
+
+import jakarta.validation.Valid;
 
 @Controller
 @RequestMapping("/cliente")
@@ -42,8 +45,9 @@ public class ClienteController {
 	}
 	
 	@GetMapping("/borrar/{id}")
-	public String borraClienteById(@PathVariable long id) {
+	public String borraClienteById(@PathVariable long id, RedirectAttributes flash) {
 		clienteService.borrarUnCliente(id);	
+		flash.addFlashAttribute("warning", "Cliente borrado con exito");
 		return "redirect:/cliente/todos";
 		
 	}
@@ -57,8 +61,14 @@ public class ClienteController {
 	}
 	
 	@PostMapping("/form")
-	public String formClientePost(Cliente cliente) {
+	public String formClientePost(@Valid Cliente cliente, BindingResult result, RedirectAttributes flash, Model model) {
+		if(result.hasErrors()) {
+			model.addAttribute("cabecera", "Formulario de cliente:");
+			model.addAttribute("cliente", cliente);	
+			return "cliente/form";
+		}		
 		clienteService.addCliente(cliente);		
+		flash.addFlashAttribute("succes", "Cliente guardado");
 		return "redirect:/cliente/todos";
 	}
 }
