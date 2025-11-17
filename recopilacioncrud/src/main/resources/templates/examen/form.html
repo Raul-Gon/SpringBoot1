@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+			body {
+				background: #F0F8FF;
+			}
+			
+			h1 {
+				font-size: 80px;
+				color: #5F9EA0;
+				text-align: center;
+			}
+			.succes {
+				background: Yellow;
+				border-radius: 5px;
+				width: 80%;
+				padding: 3px 20px;
+			}
+			.warning{
+				background: red;
+					border-radius: 5px;
+					width: 80%;
+					padding: 3px 20px;
+			}				
+		</style>
+		
+	</head>
+	<body>
+	
+		<h1 th:text="${cabecera}"></h1>
+	
+		<form th:action="@{/examen/form}" th:object="${pregunta}" method="post"> 
+			<br/>
+			<label th:if="${pregunta.id != null}">ID: <span th:text="${pregunta.id}"></span></label>
+			<input type="hidden" th:field="*{id}" /> 
+			<br/>
+			<label>Tema:</label>
+			<input type="text" th:field="*{tema}" placeholder="Introduce Tema" />
+			<small style="color: red" th:if="${#fields.hasErrors('tema')}" th:errors="*{tema}"></small> 
+			<br/>
+			<label>Dificultad:</label>
+			<input type="number" min="1" max="3" th:field="*{dificultad}" placeholder="Introduce Dificultad" />
+			<small style="color: red" th:if="${#fields.hasErrors('dificultad')}" th:errors="*{dificultad}"></small>  
+			<br/>
+			<label>Enunciado:</label>
+			<input type="text" th:field="*{enunciado}" placeholder="Introduce Enunciado" /> 
+			<small style="color: red" th:if="${#fields.hasErrors('enunciado')}" th:errors="*{enunciado}"></small> 
+			<br/>
+			<label>Solucion:</label>
+			<select th:field=*{solucion}>
+			  <option value="true">Verdadero</option>
+			  <option value="false">Falso</option>
+			</select>
+			<br />
+			<button>Enviar</button>
+		</form>
+	</body>
+</html>

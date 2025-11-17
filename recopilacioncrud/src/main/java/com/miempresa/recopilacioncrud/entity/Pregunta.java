@@ -1,10 +1,14 @@
 package com.miempresa.recopilacioncrud.entity;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name="preguntas")
@@ -18,10 +22,13 @@ public class Pregunta {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
+	@NotEmpty
 	private String tema;
-	private Integer dificultad;
-	private String enuncioado;
+	private int dificultad;
+	@NotEmpty
+	private String enunciado;
+	@NotEmpty
 	private boolean solucion;
 	
 	public Pregunta() {
@@ -30,7 +37,7 @@ public class Pregunta {
 	public Pregunta(String tema, Integer dificultad, String enuncioado, boolean solucion) {
 		this.tema = tema;
 		this.dificultad = dificultad;
-		this.enuncioado = enuncioado;
+		this.enunciado = enuncioado;
 		this.solucion = solucion;
 	}
 
@@ -58,12 +65,12 @@ public class Pregunta {
 		this.dificultad = dificultad;
 	}
 
-	public String getEnuncioado() {
-		return enuncioado;
+	public String getEnunciado() {
+		return enunciado;
 	}
 
-	public void setEnuncioado(String enuncioado) {
-		this.enuncioado = enuncioado;
+	public void setEnunciado(String enuncioado) {
+		this.enunciado = enuncioado;
 	}
 
 	public boolean isSolucion() {

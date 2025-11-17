@@ -48,8 +48,7 @@ public class ClienteController {
 	public String borraClienteById(@PathVariable long id, RedirectAttributes flash) {
 		clienteService.borrarUnCliente(id);	
 		flash.addFlashAttribute("warning", "Cliente borrado con exito");
-		return "redirect:/cliente/todos";
-		
+		return "redirect:/cliente/todos";		
 	}
 	
 	@GetMapping("/form/{id}")

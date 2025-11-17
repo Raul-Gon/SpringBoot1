@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+			body {
+				background: #F0F8FF;
+			}
+			
+			h1 {
+				font-size: 80px;
+				color: #5F9EA0;
+				text-align: center;
+			}
+			.succes {
+				background: Yellow;
+				border-radius: 5px;
+				padding: 10px 20px;
+				text-align: center;
+				margin-x: auto;
+			}
+			.warning{
+				width: 50%; 
+				background: red;
+				border-radius: 5px;
+				padding: 10px 20px;
+				text-align: center;
+			}	
+			.noticeContainer {
+				display: flex;
+				justify-content: center;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>	
+		
+		<div class="noticeContainer" th:if="${warning != null}"><p class="warning" th:text="${warning}"></p></div>
+		<div class="noticeContainer" th:if="${succes != null}"><p class="succes" th:text="${succes}"></p></div>
+		
+		<p th:if="${preguntas == null || preguntas.size() == 0}">No hay preguntas que mostrar.</p>	
+		<table border="1" th:if="${!(preguntas == null || preguntas.size() == 0)}" style="margin: auto;">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>TEMA</th>
+					<th>ENUNCIADO</th>
+					<th>SOLUCION</th>
+					<th>ACCIONES</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="pregunta : ${preguntas}")>
+					<td th:text="${pregunta.id}"></td>
+					<td th:text="${pregunta.tema}"></td>
+					<td th:text="${pregunta.enunciado}"></td>
+					<td th:text="${pregunta.solucion}"></td>
+					<td>
+						<a th:href="@{'/examen/id/' + ${pregunta.id}}">Ver</a>
+						<a th:href="@{'/examen/borrar/' + ${pregunta.id}}">Borrar</a>
+						<a th:href="@{'/examen/form/' + ${pregunta.id}}">Editar</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div style="widht: 100%; text-align: center; margin-x: auto;"><a th:href="@{/examen/form/-1}"><button style="padding: 10px 40px; border-radius: 10px; margin-top: 50px;">AÑADIR UNA PREGUNTA NUEVA</button></a></div>
+		
+	</body>
+</html>

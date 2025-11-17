@@ -3,32 +3,83 @@
 	<head>
 		<meta charset="UTF-8">
 		<title th:text="${titulo}"></title>
+		
+		<style>
+			body {
+				background: #F0F8FF;
+			}
+			
+			h1 {
+				font-size: 80px;
+				color: #5F9EA0;
+				text-align: center;
+			}.succes {
+				background: Yellow;
+				border-radius: 5px;
+				width: 80%;
+				padding: 3px 20px;
+			}
+			.warning{
+				background: red;
+					border-radius: 5px;
+					width: 80%;
+					padding: 3px 20px;
+			}	
+		</style>
+		
 	</head>
 	<body>
 		<h1 th:text="${cabecera}"></h1>	
 		
-		<form action="">
-			<label>TEMATICA: </label>
-			<br />
-			<ul>
-				<li>
-					<span>Naturaleza </span>
-					<input type="radio" />
-				</li>
-				<li>
-					<span>Matemáticas </span>
-					<input type="radio" />
-				</li>
-				<li>
-					<span>Geografía </span>
-					<input type="radio" />
-				</li>
-				<li>
-					<span>Historia </span>
-					<input type="radio" />
-				</li>
-			</ul>
+		<form th:action="@{/examen/cuestionario}">
+			<table style="width: 600px; margin: auto;">
+				<thead>
+					<tr>
+						<th style="widht: 50%; background: #5F9EA0;"><label>TEMATICA: </label></th>
+						<th style="widht: 50%; background: #FFEBCD;"><label>NIVEL DE DIFICULTAD: </label></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="widht: 50%; background: #FFEBCD;">
+							<ul>
+								<li>
+									<span>Naturaleza </span>
+									<input type="radio" name="tema" value="naturaleza" checked />
+								</li>
+								<li>
+									<span>Matemáticas </span>
+									<input type="radio" name="tema" value="matematicas" />
+								</li>
+								<li>
+									<span>Geografía </span>
+									<input type="radio" name="tema" value="geografia" />
+								</li>
+								<li>
+									<span>Historia </span>
+									<input type="radio" name="tema" value="historia" />
+								</li>
+							</ul>
+						</td>
+						<td style="widht: 50%; background: #5F9EA0;  text-align: center;">	
+							<input id="miInput" type="number" max="3" min="1" step="1" name="dificultad" />
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="widht: 100%; height: 50px; text-align: center;">
+							<button style="padding: 10px 30px; background: #F8F8FF; margin-top: 100px; border-radius: 10px;">JUGAR</button>
+						</td>
+					</tr>
+				</tbody>			
+			</table>			
 		</form>
+		
+		<script type="text/javascript">
+			const inputElement = document.getElementById('miInput');
+			inputElement.addEventListener('keydown', function(event) {
+			  event.preventDefault(); // Previene la escritura de cualquier carácter
+			});
+		</script>
 		
 	</body>
 </html>

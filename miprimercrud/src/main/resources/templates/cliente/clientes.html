@@ -22,8 +22,8 @@
 		
 	</head>
 	<body>
-	<div class="warning" th:if="${warning != null}" th:text="${warning}"></div>
-	<div class="succes" th:if="${succes != null}" th:text="${succes}"></div>
+		<div class="warning" th:if="${warning != null}" th:text="${warning}"></div>
+		<div class="succes" th:if="${succes != null}" th:text="${succes}"></div>
 		<header th:replace="~{layout/base :: header-comun}"></header>
 		<h1 th:text="${cabecera}"></h1>
 		

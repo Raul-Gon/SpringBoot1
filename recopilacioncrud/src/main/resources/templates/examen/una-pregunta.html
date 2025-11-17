@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+			body {
+				background: #F0F8FF;
+			}
+			
+			h1 {
+				font-size: 80px;
+				color: #5F9EA0;
+				text-align: center;
+			}
+			.succes {
+				background: Yellow;
+				border-radius: 5px;
+				width: 80%;
+				padding: 3px 20px;
+			}
+			.warning{
+				background: red;
+					border-radius: 5px;
+					width: 80%;
+					padding: 3px 20px;
+			}				
+		</style>
+		
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>
+		
+		<p th:if="${pregunta == null}">Pregunta no existente.</p>
+		
+		<ul th:if="${pregunta != null}">
+			<li>
+				<p><b>Id: </b><span th:text="${pregunta.id}"></span></p>
+			</li>
+			<li>
+				<p><b>Tema: </b><span th:text="${pregunta.tema}"></span></p>
+			</li>
+			<li>
+				<p><b>Enunciado: </b><span th:text="${pregunta.enunciado}"></span></p>
+			</li>
+			<li>
+				<p><b>Dificultad: </b><span th:text="${pregunta.dificultad}"></span></p>
+			</li>
+			<li>
+				<p><b>Solucion: </b><span th:text="${pregunta.solucion}"></span></p>
+			</li>
+		</ul>
+	</body>
+</html>
