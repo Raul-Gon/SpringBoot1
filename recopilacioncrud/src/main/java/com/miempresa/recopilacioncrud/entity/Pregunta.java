@@ -28,7 +28,6 @@ public class Pregunta {
 	private int dificultad;
 	@NotEmpty
 	private String enunciado;
-	@NotEmpty
 	private boolean solucion;
 	
 	public Pregunta() {

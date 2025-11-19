@@ -33,7 +33,7 @@
 	
 		<h1 th:text="${cabecera}"></h1>
 	
-		<form th:action="@{/examen/form}" th:object="${pregunta}" method="post"> 
+		<form th:action="@{/pregunta/form}" th:object="${pregunta}" method="post"> 
 			<br/>
 			<label th:if="${pregunta.id != null}">ID: <span th:text="${pregunta.id}"></span></label>
 			<input type="hidden" th:field="*{id}" /> 
@@ -58,5 +58,8 @@
 			<br />
 			<button>Enviar</button>
 		</form>
+		
+		<div style="widht: 100%; text-align: center; margin-y: 50px;"><a th:href="@{/pregunta/todas}"><button style="padding: 10px 40px; border-radius: 10px; margin-top: 50px;">VOLVER</button></a></div>
+		
 	</body>
 </html>

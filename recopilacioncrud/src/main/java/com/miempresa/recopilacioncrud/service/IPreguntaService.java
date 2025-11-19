@@ -9,4 +9,5 @@ public interface IPreguntaService {
 	Pregunta preguntaPorId(Long id);
 	void borraPorId(Long id);
 	Pregunta addPregunta(Pregunta pregunta);
+	
 }

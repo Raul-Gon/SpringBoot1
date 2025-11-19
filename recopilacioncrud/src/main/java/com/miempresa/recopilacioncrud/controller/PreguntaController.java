@@ -19,7 +19,7 @@ import com.miempresa.recopilacioncrud.service.PreguntaServiceImpl;
 import jakarta.validation.Valid;
 
 @Controller
-@RequestMapping("/examen")
+@RequestMapping("/pregunta")
 public class PreguntaController {
 	
 	@Autowired
@@ -44,11 +44,11 @@ public class PreguntaController {
 		return "examen/una-pregunta";
 	}
 	
-	@GetMapping("/borrar/{id}")
+	@GetMapping("/borrar/id/{id}")
 	public String borrarById(@PathVariable Long id, RedirectAttributes flash) {	
 		preguntaService.borraPorId(id);
 		flash.addFlashAttribute("warning", "El campo se ha borrado satisfactoriamente.");
-		return "redirect:/examen/preguntas";
+		return "redirect:/pregunta/todas";
 	}
 		
 	@GetMapping("/form/{id}")
@@ -68,13 +68,20 @@ public class PreguntaController {
 		}		
 		preguntaService.addPregunta(pregunta);		
 		flash.addFlashAttribute("succes", "Pregunta guardada");
-		return "redirect:/examen/preguntas";
+		return "redirect:/pregunta/todas";
 	}
 	
-	@GetMapping("/preguntas")
+	@GetMapping("/todas")
 	public String listadoPreguntas(Model model) {
 		model.addAttribute("cabecera", "Listado de todas las PREGUNTAS:");
 		model.addAttribute("preguntas", preguntaService.dameTodos());
+		return "examen/listado";
+	}
+	
+	@GetMapping("/tema/{tema}")
+	public String listadoPreguntasPorTema(Model model, @PathVariable String tema) {
+		model.addAttribute("cabecera", "Listado de PREGUNTAS de " + tema + ":");
+		model.addAttribute("preguntas", preguntaService.damePorTema());
 		return "examen/listado";
 	}
 	

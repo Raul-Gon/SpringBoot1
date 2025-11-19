@@ -31,7 +31,7 @@
 	<body>
 		<h1 th:text="${cabecera}"></h1>	
 		
-		<form th:action="@{/examen/cuestionario}">
+		<form th:action="@{/pregunta/cuestionario}">
 			<table style="width: 600px; margin: auto;">
 				<thead>
 					<tr>
@@ -62,7 +62,7 @@
 							</ul>
 						</td>
 						<td style="widht: 50%; background: #5F9EA0;  text-align: center;">	
-							<input id="miInput" type="number" max="3" min="1" step="1" name="dificultad" />
+							<input id="miInput" type="number" max="3" min="1" step="1" value="1" name="dificultad" />
 						</td>
 					</tr>
 					<tr>
