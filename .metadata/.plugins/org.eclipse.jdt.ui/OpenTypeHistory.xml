@@ -2,5 +2,6 @@
 <typeInfoHistroy>
     <typeInfo handle="=misegundocrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.segundocrud.service{IEdificioService.java[IEdificioService" modifiers="513" timestamp="1763056999867"/>
     <typeInfo handle="=recopilacioncrud/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.recopilacioncrud.service{IPreguntaService.java[IPreguntaService" modifiers="513" timestamp="1763568240372"/>
-    <typeInfo handle="=25ifcd0021test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.ifcd0021test25.service{IPokemonService.java[IPokemonService" modifiers="513" timestamp="1763579055191"/>
+    <typeInfo handle="=25ifcd0021test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.ifcd0021test25.service{IPokemonService.java[IPokemonService" modifiers="513" timestamp="1763656805166"/>
+    <typeInfo handle="=25ifcd0021test/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.miempresa.ifcd0021test25.service{IBolaDragonService.java[IBolaDragonService" modifiers="513" timestamp="1763662022441"/>
 </typeInfoHistroy>
