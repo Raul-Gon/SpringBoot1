@@ -1,4 +1,4 @@
-!SESSION 2025-11-20 14:40:27.991 -----------------------------------------------
+!SESSION 2025-11-21 15:50:38.591 -----------------------------------------------
 eclipse.buildId=4.37.0.202509051843
 java.version=21.0.8
 java.vendor=Eclipse Adoptium
@@ -7,9 +7,9 @@ Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
 This is a continuation of log file C:\Users\tarde\Desktop\RaulCoreNetwork\SpringBoot1\.metadata\.bak_3.log
-Created Time: 2025-11-20 18:02:58.547
+Created Time: 2025-11-21 18:52:54.197
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:58.548
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:54.197
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -58,7 +58,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:58.549
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:54.199
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -107,8 +107,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:02:59.039
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:52:55.316
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -146,7 +146,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.040
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:55.317
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -195,7 +195,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.041
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:55.318
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -244,7 +244,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.042
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:55.319
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -293,8 +293,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:02:59.538
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:52:57.004
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -332,7 +332,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.539
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:57.005
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -381,7 +381,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.540
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:57.006
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -430,7 +430,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:02:59.541
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:52:57.007
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -479,8 +479,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:00.202
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:00.473
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -518,7 +518,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:00.203
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.475
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -567,7 +567,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:00.204
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.476
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -616,7 +616,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:00.205
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.477
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -665,46 +665,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:01.537
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
-!STACK 0
-java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
-	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.computeFirst(LanguageServers.java:169)
-	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:47)
-	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
-	... 9 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:01.538
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.984
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -753,7 +714,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:01.540
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.985
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -802,7 +763,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:01.540
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.986
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -851,8 +812,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:02.025
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:00.996
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -890,7 +851,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:02.026
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.998
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -939,7 +900,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:02.027
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:00.999
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -988,7 +949,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:02.028
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.000
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1037,8 +998,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:08.471
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/PokemonServiceImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:01.495
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1076,7 +1037,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:08.473
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.496
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1125,7 +1086,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:08.474
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.497
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1174,7 +1135,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:08.475
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.498
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1223,8 +1184,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:14.133
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/IPokemonService.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:01.994
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1262,7 +1223,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:14.135
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.995
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1311,7 +1272,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:14.136
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.996
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1360,7 +1321,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:14.137
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:01.997
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1409,8 +1370,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:19.234
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:02.507
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1448,7 +1409,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.235
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:02.508
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1497,7 +1458,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.236
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:02.509
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1546,7 +1507,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.237
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:02.510
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1595,8 +1556,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:19.750
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:04.441
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1634,7 +1595,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.751
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.442
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1683,7 +1644,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.752
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.444
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1732,7 +1693,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:19.753
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.445
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1781,8 +1742,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:20.264
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:04.945
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -1820,7 +1781,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.265
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.946
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1869,7 +1830,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.266
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.948
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1918,7 +1879,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.267
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:04.949
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -1967,8 +1928,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:20.773
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:05.444
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2006,7 +1967,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.775
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:05.445
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2055,7 +2016,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.776
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:05.446
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2104,7 +2065,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:20.776
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:05.447
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2153,8 +2114,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:21.297
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:06.868
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2192,7 +2153,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:21.298
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:06.869
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2241,7 +2202,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:21.299
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:06.870
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2290,7 +2251,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:21.300
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:06.871
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2339,8 +2300,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:25.306
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:13.098
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2378,7 +2339,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:25.307
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.099
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2427,7 +2388,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:25.309
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.100
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2476,7 +2437,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:25.309
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.101
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2525,8 +2486,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:27.560
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/PokemonServiceImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:13.611
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2564,7 +2525,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:27.561
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.612
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2613,7 +2574,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:27.563
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.613
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2662,7 +2623,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:27.564
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:13.614
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2711,8 +2672,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:30.891
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:14.864
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2750,7 +2711,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:30.892
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:14.865
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2799,7 +2760,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:30.893
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:14.866
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2848,7 +2809,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:30.893
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:14.867
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2897,8 +2858,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:35.109
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/IPokemonService.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:17.001
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -2936,7 +2897,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:35.110
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.003
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -2985,7 +2946,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:35.111
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.004
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3034,7 +2995,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:35.112
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.005
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3083,8 +3044,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:38.470
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/PokemonServiceImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:17.505
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3122,7 +3083,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:38.471
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.506
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3171,7 +3132,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:38.473
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.507
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3220,7 +3181,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:38.474
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:17.508
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3269,8 +3230,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:44.346
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:21.901
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3308,7 +3269,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.347
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:21.902
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3357,7 +3318,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.348
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:21.903
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3406,7 +3367,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.348
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:21.904
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3455,8 +3416,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:44.849
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:26.449
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3494,7 +3455,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.850
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.450
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3543,7 +3504,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.851
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.451
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3592,7 +3553,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:44.852
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.452
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3641,8 +3602,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:45.386
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:26.959
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3680,7 +3641,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.387
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.960
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3729,7 +3690,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.388
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.961
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3778,7 +3739,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.389
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:26.961
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3827,8 +3788,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:45.904
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:28.363
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -3866,7 +3827,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.904
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:28.364
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3915,7 +3876,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.906
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:28.365
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -3964,7 +3925,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:45.906
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:28.366
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4013,8 +3974,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:46.402
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:29.250
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4052,7 +4013,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.403
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.252
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4101,7 +4062,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.404
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.253
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4150,7 +4111,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.405
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.254
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4199,8 +4160,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:46.962
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:29.760
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4238,7 +4199,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.963
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.761
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4287,7 +4248,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.964
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.761
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4336,7 +4297,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:46.965
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:29.762
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4385,8 +4346,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:47.458
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:32.218
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4424,7 +4385,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.459
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.220
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4473,7 +4434,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.459
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.221
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4522,7 +4483,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.460
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.222
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4571,8 +4532,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:47.959
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:32.735
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4610,7 +4571,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.960
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.736
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4659,7 +4620,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.961
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.737
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4708,7 +4669,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:47.963
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:32.738
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4757,8 +4718,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:48.458
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:33.764
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4796,7 +4757,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:48.459
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:33.768
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4845,7 +4806,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:48.460
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:33.769
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4894,7 +4855,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:48.460
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:33.772
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -4943,8 +4904,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:49.170
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:37.833
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -4982,7 +4943,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.171
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:37.835
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5031,7 +4992,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.172
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:37.836
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5080,7 +5041,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.173
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:37.837
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5129,8 +5090,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:49.688
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:38.331
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5168,7 +5129,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.690
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.332
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5217,7 +5178,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.691
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.333
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5266,7 +5227,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:49.691
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.335
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5315,8 +5276,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:52.259
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:38.832
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5354,7 +5315,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:52.260
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.833
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5403,7 +5364,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:52.261
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.834
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5452,7 +5413,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:52.262
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:38.835
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5501,8 +5462,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:53.803
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:39.332
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5540,7 +5501,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:53.805
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:39.334
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5589,7 +5550,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:53.806
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:39.335
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5638,7 +5599,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:53.807
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:39.336
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5687,8 +5648,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:55.066
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:53:41.706
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5726,7 +5687,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.067
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:41.708
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5775,7 +5736,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.068
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:41.709
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5824,7 +5785,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.069
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:53:41.710
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5873,8 +5834,116 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:55.569
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:53:50.113
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:53:56.720
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:54:23.273
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:25.442
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -5912,7 +5981,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.570
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.443
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -5961,7 +6030,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.572
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.444
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6010,7 +6079,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:55.573
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.445
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6059,8 +6128,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:56.069
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:25.950
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6098,7 +6167,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:56.070
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.951
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6147,7 +6216,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:56.071
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.952
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6196,7 +6265,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:56.072
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:25.953
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6245,8 +6314,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:59.235
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:27.617
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6284,7 +6353,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.236
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:27.618
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6333,7 +6402,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.237
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:27.619
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6382,7 +6451,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.238
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:27.620
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6431,8 +6500,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:59.590
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:28.139
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6470,7 +6539,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.591
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.141
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6519,7 +6588,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.592
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.141
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6568,7 +6637,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.593
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.142
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6617,8 +6686,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:03:59.740
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:28.655
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6656,7 +6725,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.741
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.657
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6705,7 +6774,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.742
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.658
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6754,7 +6823,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:03:59.743
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:28.658
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6803,8 +6872,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:00.250
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:30.634
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -6842,7 +6911,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:00.251
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:30.635
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6891,7 +6960,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:00.252
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:30.636
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6940,7 +7009,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:00.253
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:30.637
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -6989,8 +7058,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:01.479
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:33.163
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7028,7 +7097,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:01.480
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:33.164
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7077,7 +7146,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:01.481
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:33.166
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7126,7 +7195,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:01.482
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:33.167
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7175,8 +7244,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:03.914
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:37.400
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7214,7 +7283,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:03.915
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:37.401
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7263,7 +7332,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:03.916
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:37.403
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7312,7 +7381,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:03.917
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:37.403
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7361,8 +7430,80 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:04.419
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:54:45.395
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:54:48.175
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:48.555
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7400,7 +7541,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.420
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:48.556
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7449,7 +7590,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.421
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:48.557
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7498,7 +7639,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.422
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:48.558
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7547,8 +7688,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:04.930
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:54.022
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7586,7 +7727,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.931
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:54.025
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7635,7 +7776,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.932
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:54.026
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7684,7 +7825,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:04.933
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:54.027
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7733,8 +7874,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:05.433
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:57.771
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7772,7 +7913,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.434
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:57.772
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7821,7 +7962,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.435
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:57.773
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7870,7 +8011,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.436
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:57.774
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -7919,8 +8060,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:05.932
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:58.279
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -7958,7 +8099,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.933
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.280
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8007,7 +8148,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.934
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.281
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8056,7 +8197,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:05.935
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.282
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8105,8 +8246,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:06.443
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:58.787
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8144,7 +8285,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:06.444
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.789
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8193,7 +8334,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:06.445
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.790
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8242,7 +8383,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:06.446
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:58.791
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8291,8 +8432,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:08.203
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:54:59.308
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8330,7 +8471,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:08.204
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:59.309
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8379,7 +8520,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:08.205
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:59.310
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8428,7 +8569,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:08.206
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:54:59.311
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8477,8 +8618,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:09.038
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:00.162
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8516,7 +8657,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:09.039
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.163
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8565,7 +8706,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:09.040
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.164
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8614,7 +8755,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:09.041
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.165
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8663,8 +8804,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:12.345
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/PokemonServiceImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:00.662
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8702,7 +8843,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:12.347
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.664
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8751,7 +8892,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:12.348
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.665
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8800,7 +8941,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:12.349
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:00.665
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8849,8 +8990,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:16.681
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/IPokemonService.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:01.177
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -8888,7 +9029,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:16.682
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.178
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8937,7 +9078,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:16.683
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.179
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -8986,7 +9127,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:16.684
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.180
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9035,8 +9176,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:20.397
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:01.875
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9074,7 +9215,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.398
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.876
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9123,7 +9264,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.400
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.877
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9172,7 +9313,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.400
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:01.878
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9221,8 +9362,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:20.907
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:02.389
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9260,7 +9401,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.908
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.391
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9309,7 +9450,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.909
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.392
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9358,7 +9499,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:20.910
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.393
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9407,8 +9548,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:21.416
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:02.905
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9446,7 +9587,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:21.417
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.906
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9495,7 +9636,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:21.418
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.907
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9544,7 +9685,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:21.419
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:02.908
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9593,8 +9734,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:27.338
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:03.416
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9632,7 +9773,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.339
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:03.417
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9681,7 +9822,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.340
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:03.418
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9730,7 +9871,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.341
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:03.419
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9779,8 +9920,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:27.852
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:04.043
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -9818,7 +9959,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.853
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:04.045
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9867,7 +10008,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.854
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:04.046
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9916,7 +10057,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:27.855
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:04.046
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -9965,8 +10106,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:31.023
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:55:05.896
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10004,7 +10145,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:31.024
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:05.899
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10053,7 +10194,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:31.025
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:05.900
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10102,7 +10243,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:31.027
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:55:05.902
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10151,8 +10292,44 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:32.027
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-21 18:57:52.651
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
+	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
+	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
+	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:75)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.initiateHoverRequest(LSPTextHover.java:220)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfoFuture(LSPTextHover.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:50)
+	... 4 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:57:54.275
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10190,7 +10367,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.028
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:57:54.276
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10239,7 +10416,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.029
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:57:54.277
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10288,7 +10465,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.030
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:57:54.278
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10337,8 +10514,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:32.525
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:58:53.628
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10376,7 +10553,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.526
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:53.629
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10425,7 +10602,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.527
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:53.630
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10474,7 +10651,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:32.528
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:53.631
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10523,8 +10700,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:38.488
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/PokemonServiceImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:58:54.131
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10562,7 +10739,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:38.490
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.132
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10611,7 +10788,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:38.491
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.133
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10660,7 +10837,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:38.492
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.134
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10709,8 +10886,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:43.815
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:58:54.628
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10748,7 +10925,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:43.816
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.629
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10797,7 +10974,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:43.817
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.630
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10846,7 +11023,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:43.818
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:54.631
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10895,8 +11072,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:44.325
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:58:55.140
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -10934,7 +11111,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.326
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:55.142
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -10983,7 +11160,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.327
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:55.142
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11032,7 +11209,7 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.328
+!ENTRY org.eclipse.jface.text 4 0 2025-11-21 18:58:55.144
 !MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 !STACK 0
 java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
@@ -11081,8 +11258,8 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
 	... 38 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2025-11-20 18:04:44.838
-!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/25ifcd0021test/src/main/java/com/miempresa/ifcd0021test25/service/BolaDragonImpl.java' from Language Servers
+!ENTRY org.eclipse.lsp4e 4 0 2025-11-21 18:58:55.631
+!MESSAGE Failed to fetch semantic tokens for 'C:/Users/tarde/Desktop/RaulCoreNetwork/SpringBoot1/generics&opcional/src/optional/ProbandoOptional.java' from Language Servers
 !STACK 0
 java.util.concurrent.ExecutionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
@@ -11119,150 +11296,3 @@ Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null
 	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:47)
 	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:67)
 	... 9 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.840
-!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-!STACK 0
-java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
-	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:40)
-	at org.eclipse.lsp4e.operations.codelens.CodeLensProvider.provideCodeMinings(CodeLensProvider.java:66)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:194)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:200)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:145)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:134)
-	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	... 38 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.841
-!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-!STACK 0
-java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
-	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:62)
-	at org.eclipse.lsp4e.operations.color.DocumentColorProvider.provideCodeMinings(DocumentColorProvider.java:89)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:194)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:200)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:145)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:134)
-	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	... 38 more
-
-!ENTRY org.eclipse.jface.text 4 0 2025-11-20 18:04:44.841
-!MESSAGE java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-!STACK 0
-java.util.concurrent.CompletionException: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1189)
-	at java.base/java.util.concurrent.CompletableFuture.thenCompose(CompletableFuture.java:2341)
-	at org.eclipse.lsp4e.LanguageServerWrapper.getServerCapabilitiesAsync(LanguageServerWrapper.java:1037)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.filter(LanguageServers.java:282)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-	at org.eclipse.lsp4e.LanguageServers$LanguageServerDocumentExecutor.getServers(LanguageServers.java:290)
-	at org.eclipse.lsp4e.LanguageServers.executeOnServers(LanguageServers.java:441)
-	at org.eclipse.lsp4e.LanguageServers.collectAll(LanguageServers.java:92)
-	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:54)
-	at org.eclipse.lsp4e.operations.inlayhint.InlayHintProvider.provideCodeMinings(InlayHintProvider.java:89)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.lambda$2(CodeMiningManager.java:194)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.getCodeMinings(CodeMiningManager.java:200)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.updateCodeMinings(CodeMiningManager.java:145)
-	at org.eclipse.jface.internal.text.codemining.CodeMiningManager.run(CodeMiningManager.java:134)
-	at org.eclipse.jface.text.source.SourceViewer.updateCodeMinings(SourceViewer.java:1334)
-	at org.eclipse.jdt.internal.ui.javaeditor.JavaCodeMiningReconciler.reconciled(JavaCodeMiningReconciler.java:51)
-	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
-	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
-	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
-	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
-	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:199)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.lang.IllegalStateException: serverCapabilities unexpectedly null after initialization
-	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$20(LanguageServerWrapper.java:1043)
-	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(CompletableFuture.java:1187)
-	... 38 more
