@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.support.SimpleJpaRepository"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="com.miempresa.miprimercrud.entity.Articulo"/>
-    <fullyQualifiedTypeName name="com.miempresa.miprimercrud.repository.IArticuloRepository"/>
-    <fullyQualifiedTypeName name="com.miempresa.miprimercrud.service.IArticuloService"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="com.miempresa.segundocrud.repository.IEdificioRepository"/>
@@ -56,8 +49,15 @@
     <fullyQualifiedTypeName name="generics.Box"/>
     <fullyQualifiedTypeName name="generics.Bicicleta"/>
     <fullyQualifiedTypeName name="generics.Trio"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="funcintlambdas.IntToBoolean"/>
+    <fullyQualifiedTypeName name="funcintlambdas.StringToBoolean"/>
+    <fullyQualifiedTypeName name="funcintlambdas._Predicate"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.function.BiPredicate"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
 </qualifiedTypeNameHistroy>
