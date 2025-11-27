@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+
+		<h1 th:text="${cabecera}"></h1>
+		<img th:src="@{/img/quiz.png}" />
+		<br/>
+		
+		
+		<div class="menuBotones">
+			<a th:href="@{/pregunta/todas}"><button>Listado de Preguntas</button></a>
+			<a th:href="@{/pregunta/todas}"><button>Listado de Preguntas</button></a>
+			<a th:href="@{/pregunta/todas}"><button>Listado de Preguntas</button></a>
+		</div>
+	</body>
+</html>

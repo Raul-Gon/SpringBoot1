@@ -1,0 +1,10 @@
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Matemáticas', '¿Cuál es el resultado de 2 + 2?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Historia', '¿En qué año llegó Colón a América?', false);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Programación', '¿Qué hace System.out.println()?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Ciencias', '¿Cuál es la capital del átomo?', false);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Matemáticas', '¿Cuál es la raíz cuadrada de 16?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Historia', '¿Quién pintó la Mona Lisa?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Programación', '¿Qué es un String en Java?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Ciencias', '¿Qué planeta es conocido como el planeta rojo?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Matemáticas', '¿Cuánto es 10 x 10?', true);
+INSERT INTO preguntas (tema, enunciado, solucion) VALUES ('Historia', '¿En qué continente está España?', true);

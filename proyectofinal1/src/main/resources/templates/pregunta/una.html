@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+		<h1 th:text="${cabecera}"></h1>	
+		
+		<div class="noticeContainer" th:if="${warning != null}"><p class="warning" th:text="${warning}"></p></div>
+		<div class="noticeContainer" th:if="${succes != null}"><p class="succes" th:text="${succes}"></p></div>
+		
+		<p th:if="${pregunta == null}">No hay preguntas que mostrar.</p>	
+		<table border="1" th:if="${pregunta != null}" style="margin: auto;">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>TEMA</th>
+					<th>ENUNCIADO</th>
+					<th>SOLUCION</th>
+					<th>ACCIONES</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td th:text="${pregunta.id}"></td>
+					<td th:text="${pregunta.tema}"></td>
+					<td th:text="${pregunta.enunciado}"></td>
+					<td th:text="${pregunta.solucion}"></td>
+					<td>
+						<a th:href="@{'/pregunta/id/' + ${pregunta.id}}">Ver</a>
+						<a th:href="@{'/pregunta/borrar/id/' + ${pregunta.id}}">Borrar</a>
+						<a th:href="@{'/pregunta/form/' + ${pregunta.id}}">Editar</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<div class="contenedorBotonAtras">
+			<a th:href="@{/pregunta/todas}">
+				<button style="padding: 10px 40px; border-radius: 10px; margin-top: 50px; margin-right: 100px;">ATRAS</button>
+			</a>
+		</div>
+		
+	</body>
+</html>
