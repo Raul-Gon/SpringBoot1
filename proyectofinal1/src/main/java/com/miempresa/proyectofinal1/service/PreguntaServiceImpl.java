@@ -28,5 +28,10 @@ public class PreguntaServiceImpl implements IPreguntaService {
 	public void borraPorId(Long id) {
 		preguntaRepository.deleteById(id);		
 	}
+
+	@Override
+	public void addPregunta(Pregunta pregunta) {
+		preguntaRepository.saveAndFlush(pregunta);
+	}
 	
 }

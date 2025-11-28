@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${h1}"></h1>
+<p th:if="${pregunta == null}">No hay pregunta para el identificador indicado</p>
+<ul th:if="${pregunta != null}">
+	<li>Id: <span th:text="${pregunta.id}"></span>
+	<li>Tema: <span th:text="${pregunta.tema}"></span>
+	<li>Dificultad: <span th:text="${pregunta.dificultad}"></span>
+	<li>Enunciado: <span th:text="${pregunta.enunciado}"></span>
+	<li>Solución: <span th:text="${pregunta.solucion ? 'verdadero': 'falso'}"></span>
+</ul>
+
+<a th:href="@{/pregunta/todas}">Volver a todas las preguntas</a>
+
+
+
+
+</body>
+</html>

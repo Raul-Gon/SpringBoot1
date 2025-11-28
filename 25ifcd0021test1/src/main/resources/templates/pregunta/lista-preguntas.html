@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<header th:replace="~{layout/base :: header-comun}"></header>
+
+<h1 th:text="${h1}"></h1>
+<p th:if="${preguntas == null || preguntas.size() == 0}">No hay preguntas que mostrar</p>
+<p th:if="${warning != null}" th:text="${warning}"></p>
+<p th:if="${success != null}" th:text="${success}"></p>
+<a th:href="@{/pregunta/form/id/-1}">Nueva pregunta</a>
+
+<table>
+<thead>
+
+  <tr>
+    <th>Id</th>
+    <th>Tema</th>
+    <th>Dificultad</th>
+    <th>Enunciado</th>
+    <th>Solución</th>
+    <th>Acciones</th>
+    
+  </tr>
+</thead>
+<tbody>
+  <tr th:each="pregunta: ${preguntas}">
+    <td th:text="${pregunta.id}"></td>
+    <td>
+    	<a th:href="@{'/pregunta/tema/' + ${pregunta.tema}}" th:text="${pregunta.tema}"></a>
+    </td>
+    <td>
+    	<a th:href="@{'/pregunta/dificultad/' + ${pregunta.dificultad}}" th:text="${pregunta.dificultad}"></a>
+    </td>
+    
+    
+    
+    
+    <td th:text="${pregunta.enunciado}"></td>
+    <td th:text="${pregunta.solucion ? 'verdadero': 'falso'}"></td>
+	<td>
+		<a th:href="@{'/pregunta/id/' + ${pregunta.id}}">Ver</a>
+		<a th:href="@{'/pregunta/form/id/' + ${pregunta.id}}">Editar</a>
+		<a th:href="@{'/pregunta/borra/id/' + ${pregunta.id}}">Borrar</a>
+	</td>
+  </tr>
+</tbody>
+</table>
+<a th:href="@{/pregunta/todas}">Listado completo</a>
+
+<footer th:replace="~{layout/base :: footer-comun}"></footer>
+
+
+
+</body>
+</html>

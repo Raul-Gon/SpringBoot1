@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<h1 th:text="${h1}"></h1>
+<form th:action="@{/pregunta/form}" th:object="${pregunta}" method="post">
+	<input type="hidden" th:field="*{id}" />
+	<label>Tema: </label><input type="text" th:field="*{tema}" /><br />
+	<small th:if="${#fields.hasErrors('tema')}" th:errors="*{tema}"></small><br/>
+	
+	<label>Dificultad: </label>
+		<select th:field="*{dificultad}">
+			<option th:value="ALTA">ALTA</option>
+			<option th:value="MEDIA">MEDIA</option>
+			<option th:value="BAJA">BAJA</option>
+		</select>
+		<br />
+	<label>Enunciado: </label><input type="text" th:field="*{enunciado}" /><br />
+	<small th:if="${#fields.hasErrors('enunciado')}" th:errors="*{enunciado}"></small><br/>
+	
+	<label>Solución: </label>
+		<select th:field="*{solucion}">
+			<option th:value="true">Verdadero</option>
+			<option th:value="false">Falso</option>
+		</select>
+		<br />
+	
+	<button>Enviar</button>
+	<br />
+	<a th:href="@{/pregunta/todas}">Volver al listado completo</a>
+	
+</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style type="text/css">
+			body{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+  				justify-content: center;
+				background: lightgrey;
+			}
+			.contenedor-ficha {
+				
+				max-widht: 300px;
+				margin-x: auto;
+			}
+		</style>
+		
+	</head>
+	<body>
+	
+		<div><h1 th:text="${cabecera}"></h1></div>
+		
+		<div class="contenedor-ficha">
+			<div>
+				<p th:text="${bolaDragones[0].id}"></p>
+				<p th:text="${bolaDragones[0].name}"></p>
+				<p th:text="${bolaDragones[0].ki}"></p>
+				<p th:text="${bolaDragones[0].maxKi}"></p>
+				<p th:text="${bolaDragones[0].description}"></p>
+			</div>
+			
+			<img th:src="${bolaDragones[0].image}" />
+		</div>
+			
+	</body>
+</html>

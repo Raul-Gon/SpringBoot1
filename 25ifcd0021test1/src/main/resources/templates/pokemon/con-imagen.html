@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+	</head>
+	<body>
+	
+		<h1 th:text="${cabecera}"></h1>
+		
+		<h2><bold th:text="${pokemon.name}"></bold></h2>
+				
+		<img th:src="${pokemon.sprites.frontDefault}"/>
+		<img th:src="${pokemon.sprites.backDefault}"/>
+		
+	</body>
+</html>

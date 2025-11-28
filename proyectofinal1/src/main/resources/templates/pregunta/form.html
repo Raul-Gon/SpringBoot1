@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<link rel="stylesheet" th:href="@{/css/style.css}" />
+		
+	</head>
+	<body>
+	
+		<h1 th:text="${cabecera}"></h1>
+		
+		<form th:action="@{/pregunta/form}" th:object="${pregunta}" method="post">
+			<input type="hidden" th:field="*{id}" />
+			<label>Tema: </label><input type="text" th:field="*{tema}" /><br />
+			<small th:if="${#fields.hasErrors('tema')}" th:errors="*{tema}"></small><br/>
+			<label>Enunciado: </label><input type="text" th:field="*{enunciado}" /><br />
+			<small th:if="${#fields.hasErrors('enunciado')}" th:errors="*{enunciado}"></small><br/>
+			
+			<label>Solución: </label>
+				<select th:field="*{solucion}">
+					<option th:value="true">Verdadero</option>
+					<option th:value="false">Falso</option>
+				</select>
+				<br />
+			
+			<button>Enviar</button>
+			<br />
+		</form>
+		
+		<div class="contenedorBotonAtras">
+			<a th:href="@{/pregunta/todas}">
+				<button style="padding: 10px 40px; border-radius: 10px; margin-top: 50px; margin-right: 100px;">ATRAS</button>
+			</a>
+		</div>
+		
+	</body>
+</html>
