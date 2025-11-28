@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Partida de Preguntas', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <h1>Partida de Preguntas</h1>
+    <p class="lead">Responde a todas las preguntas y pulsa en "Corregir Partida" al final.</p>
+
+    <form th:action="@{/view/jugar/partida/corregir}" method="post" class="mt-4">
+        <div th:each="pregunta, iterStat : ${preguntas}" class="card mb-3">
+            <div class="card-header">
+                <h5 class="mb-0" th:text="${iterStat.count} + '. ' + ${pregunta.enunciado}">1. ¿Enunciado de la pregunta?</h5>
+            </div>
+            <div class="card-body">
+                <div class="form-check">
+                    <input type="radio" th:name="'respuesta-' + ${pregunta.id}" th:id="'v-' + ${pregunta.id}" value="true" required class="form-check-input">
+                    <label th:for="'v-' + ${pregunta.id}" class="form-check-label">Verdadero</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" th:name="'respuesta-' + ${pregunta.id}" th:id="'f-' + ${pregunta.id}" value="false" required class="form-check-input">
+                    <label th:for="'f-' + ${pregunta.id}" class="form-check-label">Falso</label>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4"/>
+        <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg">Corregir Partida</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿Es la capital de Francia, París?', true);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿El agua hierve a 90 grados Celsius?', false);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿La tierra es plana?', false);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿Los humanos tienen 4 pulmones?', false);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿El sol es una estrella?', true);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿La luna es más grande que la tierra?', false);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿Java es un lenguaje de programación?', true);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿Spring es un framework de Python?', false);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿H2 es una base de datos en memoria?', true);
+INSERT INTO pregunta (enunciado, respuesta) VALUES ('¿SQL es un lenguaje para consultar bases de datos?', true);

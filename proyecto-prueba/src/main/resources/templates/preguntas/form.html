@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Formulario de Pregunta', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <h1 th:text="${pregunta.id == null} ? 'Crear Nueva Pregunta' : 'Editar Pregunta'">Formulario</h1>
+
+    <form th:action="${pregunta.id == null} ? @{/view/preguntas} : @{/view/preguntas/update/{id}(id=${pregunta.id})}"
+          th:object="${pregunta}" method="post" class="mt-4">
+        
+        <div class="mb-3">
+            <label for="enunciado" class="form-label">Enunciado:</label>
+            <input type="text" id="enunciado" th:field="*{enunciado}" class="form-control" th:errorclass="is-invalid">
+            <div th:if="${#fields.hasErrors('enunciado')}" class="invalid-feedback" th:errors="*{enunciado}"></div>
+        </div>
+        
+        <div class="form-check mb-3">
+            <input type="checkbox" id="respuesta" th:field="*{respuesta}" class="form-check-input">
+            <label for="respuesta" class="form-check-label">La respuesta es Verdadera</label>
+        </div>
+        
+        <button type="submit" class="btn btn-success">Guardar</button>
+        <a href="/view/preguntas" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+
+</body>
+</html>

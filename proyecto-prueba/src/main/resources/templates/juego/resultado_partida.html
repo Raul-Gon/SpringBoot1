@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Resultado de la Partida', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <div class="text-center">
+        <h1>Resultado de la Partida</h1>
+
+        <div class="alert alert-info mt-4">
+            <h2>
+                Has acertado <span class="fw-bold" th:text="${aciertos}">0</span> de <span class="fw-bold" th:text="${total}">0</span> preguntas.
+            </h2>
+        </div>
+
+        <div class="mt-4">
+            <a href="/view/jugar/partida" class="btn btn-primary btn-lg">Jugar una nueva partida</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

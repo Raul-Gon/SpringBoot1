@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Resultado', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <div class="text-center">
+        <h1>Resultado</h1>
+
+        <div th:if="${resultado.esCorrecta()}" class="alert alert-success mt-4">
+            <h2 th:text="${resultado.mensaje()}">¡Correcto!</h2>
+        </div>
+
+        <div th:if="${!resultado.esCorrecta()}" class="alert alert-danger mt-4">
+            <h2 th:text="${resultado.mensaje()}">¡Incorrecto!</h2>
+        </div>
+
+        <div class="mt-4">
+            <!-- Si es simulación, volvemos a la lista -->
+            <a th:if="${simulacion}" href="/view/preguntas" class="btn btn-secondary btn-lg">Volver al listado</a>
+            
+            <!-- Si no es simulación, jugamos de nuevo -->
+            <a th:unless="${simulacion}" href="/view/jugar" class="btn btn-primary btn-lg">Jugar de nuevo</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

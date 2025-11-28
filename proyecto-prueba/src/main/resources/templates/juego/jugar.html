@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Jugar', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <div class="text-center">
+        <h1>Responde a la Pregunta</h1>
+
+        <div th:if="${pregunta != null}" class="card my-4">
+            <div class="card-body">
+                <h2 class="card-title" th:text="${pregunta.enunciado}">¿Este es un enunciado de ejemplo?</h2>
+            </div>
+            <div class="card-footer">
+                <form th:action="@{/view/jugar/verificar/{id}(id=${pregunta.id})}" method="post" class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <input type="hidden" name="simulacion" th:value="${simulacion}">
+                    <button type="submit" name="respuestaUsuario" value="true" class="btn btn-success btn-lg">Verdadero</button>
+                    <button type="submit" name="respuestaUsuario" value="false" class="btn btn-danger btn-lg">Falso</button>
+                </form>
+            </div>
+        </div>
+
+        <div th:if="${pregunta == null}" class="alert alert-warning mt-4">
+            <p>No hay más preguntas disponibles.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

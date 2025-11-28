@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html th:replace="~{fragments/layout :: html(pageTitle='Detalles de la Pregunta', content = ~{::content})}">
+<head>
+</head>
+<body>
+
+<div th:fragment="content">
+    <h1>Detalles de la Pregunta</h1>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Pregunta #<span th:text="${pregunta.id}">1</span></h5>
+            <p class="card-text">
+                <strong>Enunciado: </strong>
+                <span th:text="${pregunta.enunciado}">Este es el enunciado.</span>
+            </p>
+            <p class="card-text">
+                <strong>Respuesta: </strong>
+                <span th:text="${pregunta.respuesta} ? 'Verdadero' : 'Falso'"
+                      th:classappend="${pregunta.respuesta} ? 'badge bg-success' : 'badge bg-danger'">Verdadero</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a href="/view/preguntas" class="btn btn-primary">Volver a la lista</a>
+    </div>
+</div>
+
+</body>
+</html>
