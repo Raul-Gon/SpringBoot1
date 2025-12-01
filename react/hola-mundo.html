@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+</head>
+<body>
+    <h1>Hola Mundo</h1>
+
+    <script>
+        //variables
+        var v1 = 'uno'
+        console.log(v1)
+        v1 = 'dos'
+        console.log(v1)
+        v1 = 2
+        console.log(v1)
+        const v2 = 'dos'
+        console.log(v2)
+        //v2 = 'tres' //da error por que es una constante
+        //console.log(v2)
+
+       //concatenaciones
+        let edad = 10
+        let nombre = 'Pedro'
+        let persona = nombre + ' tiene ' + edad + ' años.\n'
+        console.log(persona)
+
+        let persona2 = `${nombre} tiene ${edad} años.\n`
+        console.log(persona2)
+
+        //arrays en javaScript son dinamicos
+        let frutas = ['peras', 'manzanas', 'plátano']
+        const frutas2 = ['peras', 'manzanas', 'plátano']
+        //frutas = []
+        console.log(frutas) 
+        //añade al final en un array  
+        frutas.push('tomate')
+        frutas.push('limon', 'melon')
+        console.log(frutas)
+        //añade al principio del array
+        frutas.unshift('tomate')
+        console.log(frutas)
+        //quita el ultimo elemento 
+        frutas.pop()
+        console.log(frutas)
+
+        //for por indice del array
+        for(let i = 0; i < frutas.length; i++){
+            console.log(`${i}: ${frutas[i]}`)
+        }
+
+        //forof
+        for (const fruta of frutas) {
+            console.log(fruta)
+        }
+
+        //contar los numeros de una array
+        const array1 = [1, 2, 3, 4, 5, 6]
+        let elementos = 0
+        for (const fruta of frutas) {
+            elementos++
+        }
+        console.log('En el array hay: ' + elementos + ' elementos.\n')
+
+        //llenar un array con 5 números pares consecutivos desde 10
+        const array2 = []
+        let numeroPar = 10
+        for (let i = 1; i <= 5; i++){
+            array2.push(numeroPar)
+            numeroPar += 2
+        }
+        console.log(array2)
+        
+        //suma los elementos del array anterior
+        suma = 0
+        for (const num of array2) {
+            suma += num            
+        }
+        console.log(`La suma de los elementos anteriores es: ${suma}`)
+
+        //duplicar los valores del array
+        for (let i = 0; i < array2.length; i++){
+            array2[i] = array2[i] * 2
+        }
+        console.log(array2)
+
+    </script>
+
+</body>
+</html>

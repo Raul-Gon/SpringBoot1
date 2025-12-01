@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>01 Tipos de datos:</h1>
+    
+
+    <script>
+        const entero = 42
+        const decimal = 3.14
+        const infinito = Infinity
+        const noEsUnNumero = NaN
+        console.log(`${entero}\n${decimal}\n${infinito}\n${noEsUnNumero}\n`)
+
+        const nombre = 'Maria'
+        const frase = "Esto es una frase"
+        const plantilla = `La suma de 2 + 2 = ${2 + 2}`
+        console.log(plantilla)
+
+        const verdadero = true
+        const falso = false
+
+        let sinDefinir
+        console.log(sinDefinir)
+
+        const nulo = null
+        console.log(nulo)
+
+        const bigInt = 43749782749239047289742742874234125657688489423n //al añadirle la n le decimos que coja el espacio que le haga falta
+        const enterito = 43749782749239047289742742874234125657688489423
+        console.log(bigInt * bigInt)
+        console.log(enterito * enterito)
+
+        const persona = { 
+            nombre: 'Juan',
+            apellido: 'García',
+            edad: 30,
+            saludar: function () {
+                return `Hola ${this.nombre}`
+            },
+            cumplirAnios: function(n) {
+                this.edad = this.edad + n
+            },
+            mostrar: function(){
+                return `${this.nombre} tiene ${this.edad} años.`
+            }
+        }
+        console.log(persona)
+        console.log(persona.nombre)
+        console.log(persona['nombre'])
+        console.log(persona.saludar())
+        persona.cumplirAnios(3)
+        console.log(persona.mostrar())
+
+
+        function suma(a, b){
+            return a + b
+        }
+
+        const sumaFlecha = (a, b) => {return a + b} 
+        const sumaFlecha2 = (a, b) => a + b
+
+        console.log(suma(2, 3))
+        console.log(sumaFlecha(3, 4))
+
+        console.log(suma)
+        console.log(sumaFlecha)
+
+        console.log(typeof suma)
+        console.log(typeof infinito)
+        console.log(typeof 7)
+        console.log(typeof 7n)
+        console.log(typeof -7)
+        console.log(typeof 'hola')
+        console.log(typeof [])
+        console.log(typeof {})
+        console.log(Array.isArray([]))
+        console.log(Array.isArray({}))
+        console.log(typeof persona)
+
+    </script>
+
+</body>
+</html>
