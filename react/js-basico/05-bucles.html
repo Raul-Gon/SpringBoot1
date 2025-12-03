@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles</title>
+</head>
+<body>
+    <h1>Bucles que se ven en la consola del inspector de codigo.</h1>
+
+    <script>
+        //for: indice
+            for(let i = 0; i < array.lenght; i++){}
+        //for of array
+            for (const valor of array) {}
+            for (const [key, value] of array.entries()) {}
+            for (const value of Object.values(persona)){}
+            for (const [key, value] of Object.entries(persona)) {}
+            for (const values of Object.values(persona)) {}
+        //for in
+            for (const key in persona) {}
+
+        // Ejemplo de bucle for con un array al que sumaremos todos sus registros y multiplicaremos por dos sus valores
+        let numeros = [2, 4, 6, 8];
+        console.log(`El array números es: ${numeros}`)
+        let suma = 0;
+        for (let i = 0; i < numeros.length; i++) {
+            suma += numeros[i]
+            numeros[i] *= 2
+        }
+        console.log(`La suma de numeros es ${suma}`)
+        console.log(`El array números despues de multiplicar sus valores por 2 es: ${numeros}`)
+
+        // Bucle for...of 
+        numeros = [2, 4, 6, 8]
+        suma = 0
+        for (const num of numeros) {
+            suma += num            
+        }
+        console.log(suma)
+
+        // Bucle for...of con índice y valor
+        suma = 0
+        for (const [index, valor] of numeros.entries()) {
+            suma += numeros[index]            
+            numeros[index] *= 2
+        }
+        console.log(`La suma de numeros es ${suma}`)
+        console.log(`El array números despues de multiplicar sus valores por 2 es: ${numeros}`)
+
+
+        // Bucle for...in para un objeto con clave y valor
+        const persona = {
+            nombre: 'Raul',
+            apellido: 'Loooolo',
+            edad: 54
+        }
+
+        for (const key in persona) {
+            console.log(`${key} : ${persona[key]}`)        
+        }
+
+        // Bucle for...of para recorrer un objeto
+        for (const key of Object.keys(persona)) {
+            console.log(`${key} : ${persona[key]}`)
+        }
+
+        for (const valor of Object.values(persona)) {
+            console.log(valor)
+        }
+
+    </script>
+
+</body>
+</html>

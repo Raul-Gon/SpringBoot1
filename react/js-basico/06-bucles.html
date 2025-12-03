@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Bucles que se ven en la consola del inspector de codigo.</h1>
+
+    <script>
+        let numeros = [1, 2, 3, 4, 5]
+
+        //foreach
+        console.log('Listado del array numeros:')
+        numeros.forEach(n => {
+            console.log(n)
+        })
+        let suma = 0
+        numeros.forEach(n => {
+            suma += n
+        })
+        console.log('Suma de los valores del array numeros:')
+        console.log(`La suma es: ${suma}`)
+
+        //filter
+        /* ESTO DE AQUI COMENTADO ES LO MISMO QUE LO DE ABAJO
+        numeros = numeros.filter((e) => {
+            return e % 2 === 0
+        })
+        */
+        console.log('Filtramos para quedarnos con los numeros pares del array:')
+        numeros = numeros.filter(e => e % 2 === 0)
+        console.log(numeros)
+
+        //map 
+        numeros = numeros.map(e => e * 2)
+        console.log('Mapeo duplicando los valores de numeros que nos quedamos:')
+        console.log(numeros)
+
+        //crea un array a mano de números del 1 al 10
+        //multiplicalos por 5 
+        //filtralos quedandote con los impares
+        //sumalos
+
+        let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        let sumatorio = 0
+        const nuevoArray = array.map(num => num * 5)
+                        .filter(e => e % 2 != 0)
+        console.log('Crea un array a mano de números del 1 al 10 y multiplicalos por 5 y filtralos quedandote con los impares:')
+        console.log(nuevoArray)
+        nuevoArray.forEach(e => sumatorio += e)
+        console.log('Suma los numeros:')
+        console.log(sumatorio)
+
+        //Al foreach si le pones dos atributos, te da en el primero el valor y en el segundo el indice
+        const ciudades = ['Madrid' , 'Sevilla', 'Barcelona']
+        ciudades.forEach((value, key)=>{
+            console.log(`${key} : ${value}`)
+        })
+
+        
+        let numeritos = [1, 2, 3, 4, 5, 6]
+        numeritos.filter(e => e > 3).forEach(e => console.log(e))
+
+        //con el reduce lo que hacemos es que declaramos el atributo suma y le asignamos 0 y en valor vamos metiendo los valores a recorrer y despues asignamos a suma el resultado de la operacion
+        console.log(numeritos.reduce((suma, valor) => suma + valor, 0))
+
+        //producto
+        console.log(numeritos.reduce((producto, valor) => producto * valor, 1))
+        //maximo
+        console.log(numeritos.reduce((maximo, valor) => maximo > valor ? maximo : valor, Number.MIN_VALUE))
+        //minimo
+        console.log(numeritos.reduce((minimo, valor) => minimo < valor ? minimo : valor, Number.MAX_VALUE))
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Aritmeticas</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h2 class="max-w-7xl h-20 m-auto flex justify-center items-center rounded-md bg-slate-400 text-fuchsia-800 text-3xl">004. Operaciones aritmeticas</h2>
+
+    <p><strong id="cabecera"></strong></p>
+
+    <table class="border-collapse border border-gray-400">
+        <thead>
+            <tr>
+                <th class="border-collapse border border-gray-400">Operación</th>
+                <th class="border-collapse border border-gray-400">Resultado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border-collapse border border-gray-400">a + b</td>
+                <td id="operacion-01" class="border-collapse border border-gray-400"></td>
+            </tr>
+            <tr>
+                <td class="border-collapse border border-gray-400">a - b</td>
+                <td id="operacion-02" class="border-collapse border border-gray-400"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        const a = 11
+        const b = 7
+
+        const cabeceraElement = document.getElementById('cabecera')
+        const operacion01Element = document.getElementById('operacion-01')
+        const operacion02Element = document.getElementById('operacion-02')
+
+        cabeceraElement.innerText = `a = ${a} y b = ${b}`
+
+        operacion01Element.innerText = `${a + b}`
+
+        operacion02Element.innerText = `${a - b}`
+
+        // Comparación de contenido de arrays (método manual)
+        const arr1 = [1, 2, 3];
+        const arr2 = [1, 2, 3];
+        const sonIguales = JSON.stringify(arr1) === JSON.stringify(arr2);
+        console.log(JSON.stringify(arr1))
+        console.log(JSON.stringify(arr2))
+        console.log(sonIguales);
+        // true, ya que los String se comparan por valor
+
+        const arr3 = [1, 2, 3];
+        const arr4 = ['1', 2, 3];
+        const sonDistintos = JSON.stringify(arr3) === JSON.stringify(arr4);
+        console.log(JSON.stringify(arr3))
+        console.log(JSON.stringify(arr4))
+        console.log(sonDistintos);
+        // false, ya que los String se comparan por valor
+
+    </script>
+
+</body>
+</html>
