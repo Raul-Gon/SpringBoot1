@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selectores</title>
+
+        <style>
+            *{
+                background-color: gray;
+            }
+
+            body, html{
+                background-color: white;
+            }
+
+            div>p{
+                color: gray; 
+                border: solid 1px blue;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            div {
+                border: 1px solid red;
+            }
+
+            .especial {
+                color: orange;
+
+            }
+
+            h2.especial {
+                color: green;
+            }
+            [href="https://google.es"] {
+                background-color: chartreuse;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <h1>No especia</h1>
+        
+        <h2 class="especial">Especial</h2>
+        <h2>No especial</h2>
+
+        <div>
+            <p>Hola soy un parrafo</p>
+            <p class="especial">Hola soy un parrafo especial</p>
+            <p>Hola soy un parrafo</p>
+            <p class="especial">Hola soy un parrafo especial</p>
+        </div>
+
+        <p>Hola soy un parrafo</p>     
+        
+        <a href="https://google.es">Ir a GOOGLE</a>
+
+    </body>
+</html>

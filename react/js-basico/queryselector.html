@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Titulo general</h1>
+    <section id="seccion-01">
+        <h2 class="subtitulo">Subtitulo sección 1</h2>
+        <p>Párrafo 1 sección 1</p>
+        <ul class="lista">
+            <li class="item">Item 1 de sección 1</li>
+            <li class="item">Item 2 de sección 1</li>
+            <li class="item">Item 3 de sección 1</li>
+        </ul>
+        <p>Párrafo 2 sección 1</p>
+    </section>
+    <section id="seccion-02">
+        <h2 class="subtitulo">Subtitulo sección 2</h2>
+        <p>Párrafo 1 sección 2</p>
+        <ul class="lista">
+            <li class="item">Item 1 de sección 2</li>
+            <li class="item">Item 2 de sección 2</li>
+            <li class="item">Item 3 de sección 2</li>
+        </ul>
+        <p>Párrafo 2 sección 2</p>
+    </section>
+    <footer>
+        <p>Esto es el footer de la página</p>
+    </footer>
+
+    <script>
+        
+        //la seccion con id #seccion-02
+        const miSeccion02 = document.querySelector('#seccion-02')
+        console.log(miSeccion02)
+        miSeccion02.style.border= '1px solid red'
+
+        //el primer li que se encuentra
+        const miPrimerLi = document.querySelector('li')
+        miPrimerLi.style.backgroundColor = 'red'
+
+        const parrafos = document.querySelectorAll('p')
+        for (const parrafo of parrafos) {
+            parrafo.style.borderBottom = '10px solid blue'
+        }
+
+        // #section-02 .item 
+        const miPrimerItemSeccion02 = document.querySelector('#seccion-02 .item');
+        console.log(miPrimerItemSeccion02.innerHTML);
+        console.log(miPrimerItemSeccion02.innerText);
+
+        // Todos los elementos que coinciden con el selector p
+        console.log('\nTodos los párrafos');
+        console.log('------------------');
+        const parrafos2 = document.querySelectorAll('p');
+        console.log(parrafos2);
+        for (const parrafo of parrafos2) {
+            console.log(parrafo.innerHTML);
+            parrafo.style.border = '1px solid blue';
+            parrafo.style.backgroundColor = '#eee';
+        }
+
+        // #section-02 .item
+        console.log('\nTodos los items de la sección 2');
+        console.log('-----------------------------------');
+        const itemsSection02 = document.querySelectorAll('#seccion-02 .item');
+        console.log(itemsSection02);
+        for (const item of itemsSection02) {
+            console.log(item.innerHTML);
+            item.style.backgroundColor = 'skyblue';
+        }
+
+        // Acceso a nodo padre del primer item de la sección 1
+        console.log('\nPadre del primer item de la sección 1');
+        console.log('-----------------------------------');
+        const miPrimerItemSeccion01 = document.querySelector('#seccion-01 .item');
+        const padreMiPrimerItemSeccion01 = miPrimerItemSeccion01.parentElement;
+        console.log(padreMiPrimerItemSeccion01);
+        padreMiPrimerItemSeccion01.style.border = '2px solid blue';
+
+        // Acceso a los nodos hijos de ul de la sección 1
+        console.log('\nHijos del ul de la sección 1');
+        console.log('--------------------------------');
+        const ulDeLaSeccion01 = document.querySelector('#seccion-01 ul');
+        console.log(ulDeLaSeccion01);
+        const hijosDeulDeLaSeccion01 = ulDeLaSeccion01.children;
+        console.log(hijosDeulDeLaSeccion01);
+        for (const hijo of hijosDeulDeLaSeccion01) {
+            console.log(hijo.innerHTML);
+            hijo.style.border='1px solid red';
+        }
+
+        // Acceso a los nodos hermanos de ul del primer li de la sección 2
+        console.log('\nHermanos del primer li de la sección 2');
+        console.log('--------------------------------------');
+        const primerLiDeLaSeccion02 = document.querySelector('#seccion-02 .item');
+        console.log(primerLiDeLaSeccion02);
+        let hermano = primerLiDeLaSeccion02.nextElementSibling;
+        //console.log(hermano);
+        while(hermano !== null){
+            console.log(hermano.innerHTML);
+            hermano.style.border='5px dotted black'
+            hermano = hermano.nextElementSibling;
+        }
+
+    </script>
+    
+</body>
+</html>
