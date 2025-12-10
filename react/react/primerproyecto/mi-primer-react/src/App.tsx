@@ -1,7 +1,18 @@
 import './App.css'
+import AlternarContenido from './componets/AlternarContenido'
 import Calculador from './componets/Calculador'
 import Contador from './componets/Contador'
+import EjemploParametro from './componets/EjemploParametro'
+import EstadoUsuario from './componets/EstadoUsuario'
+import Input from './componets/Input'
+import ListaDinamica from './componets/ListaDinamica'
+import ListaNombre from './componets/ListaNombre'
+import ListaPersonas from './componets/ListaPersonas'
+import MiComponente from './componets/MiComponente'
+import MostrarOcultar from './componets/MostrarOcultar'
+import MuchosEstadosUsuario from './componets/MuchosEstadosUsuario'
 import SaludosFlexibles from './componets/SaludosFlexibles'
+import TareasConInput from './componets/TareasConInput'
 import Tienda from './componets/Tienda'
 
 function App() {
@@ -39,6 +50,18 @@ function App() {
         </div>
         <Calculador />
       </div>
+
+      <MiComponente />
+      <MostrarOcultar />
+      <AlternarContenido />
+      <EstadoUsuario />
+      <MuchosEstadosUsuario />
+      <Input />
+      <EjemploParametro />
+      <ListaNombre />
+      <ListaPersonas />
+      <ListaDinamica />
+      <TareasConInput />
 
     </div>
   )
