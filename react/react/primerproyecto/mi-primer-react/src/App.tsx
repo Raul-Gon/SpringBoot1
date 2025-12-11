@@ -1,13 +1,17 @@
 import './App.css'
 import AlternarContenido from './componets/AlternarContenido'
 import Calculador from './componets/Calculador'
+import CalculadoraPropinas from './componets/CalculadoraPropinas'
 import Contador from './componets/Contador'
+import ContadorConHistoria from './componets/ContadorConHistoria'
+import ContadorConHistoria2 from './componets/ContadorConHistoria2'
 import EjemploParametro from './componets/EjemploParametro'
 import EstadoUsuario from './componets/EstadoUsuario'
 import Input from './componets/Input'
 import ListaDinamica from './componets/ListaDinamica'
 import ListaNombre from './componets/ListaNombre'
 import ListaPersonas from './componets/ListaPersonas'
+import Listas from './componets/Listas'
 import MiComponente from './componets/MiComponente'
 import MostrarOcultar from './componets/MostrarOcultar'
 import MuchosEstadosUsuario from './componets/MuchosEstadosUsuario'
@@ -62,6 +66,10 @@ function App() {
       <ListaPersonas />
       <ListaDinamica />
       <TareasConInput />
+      <ContadorConHistoria />
+      <ContadorConHistoria2 />
+      <CalculadoraPropinas />
+      <Listas />
 
     </div>
   )

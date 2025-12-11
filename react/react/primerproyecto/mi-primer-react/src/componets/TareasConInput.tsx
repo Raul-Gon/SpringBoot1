@@ -3,10 +3,11 @@ import { useState } from "react"
 function TareasConInput() {
 
     const [tareas, setTareas] = useState<string[]>([])
-    let newTarea: string = ''
+    const [newTarea, setNewTarea] = useState<string>('')
 
     const nuevaTarea = (tarea: string): void => {
         setTareas([...tareas, tarea])
+        setNewTarea ('')
     }
 
   return (
@@ -16,7 +17,7 @@ function TareasConInput() {
 
         <label htmlFor="inTarea"></label>
         <br />
-        <input name="inTarea" type="text" placeholder="Escribe aqui tu tarea ..." onChange={(e) => {newTarea = e.target.value}}/>
+        <input name="inTarea" type="text" placeholder="Escribe aqui tu tarea ..." value={newTarea} onChange={(e) => {setNewTarea(e.target.value)}}/>
         <br />
         <button onClick={() => {nuevaTarea(newTarea)}}>AÑADIR TAREA</button>
         <br />
