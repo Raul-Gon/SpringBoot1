@@ -2,6 +2,7 @@ import './App.css'
 import AlternarContenido from './componets/AlternarContenido'
 import Calculador from './componets/Calculador'
 import CalculadoraPropinas from './componets/CalculadoraPropinas'
+import ComparacionaFetchVsAxios from './componets/ComparacionaFetchVsAxios'
 import Contador from './componets/Contador'
 import ContadorConHistoria from './componets/ContadorConHistoria'
 import ContadorConHistoria2 from './componets/ContadorConHistoria2'
@@ -18,6 +19,7 @@ import MuchosEstadosUsuario from './componets/MuchosEstadosUsuario'
 import SaludosFlexibles from './componets/SaludosFlexibles'
 import TareasConInput from './componets/TareasConInput'
 import Tienda from './componets/Tienda'
+import MultipleApis from './componets/MultipleApis';
 
 function App() {
 
@@ -70,6 +72,8 @@ function App() {
       <ContadorConHistoria2 />
       <CalculadoraPropinas />
       <Listas />
+      <ComparacionaFetchVsAxios />
+      <MultipleApis />
 
     </div>
   )
