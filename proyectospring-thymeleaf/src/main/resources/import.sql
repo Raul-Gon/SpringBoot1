@@ -1,0 +1,10 @@
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (1, 'Tienda de Ropa', 'Calle Falsa 123, Sevilla', 85, 1200.50);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (2, 'Cafetería Central', 'Avenida Principal 45, Madrid', 60, 950.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (3, 'Oficina de Abogados', 'Plaza Mayor 1, Barcelona', 120, 2100.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (4, 'Peluquería Lola', 'Calle del Pez 8, Valencia', 45, 750.75);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (5, 'Gimnasio Fitness', 'Ronda de Dalt 200, Barcelona', 250, 3500.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (6, 'Librería El Saber', 'Calle Libreros 10, Salamanca', 70, 890.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (7, 'Restaurante Mediterráneo', 'Paseo Marítimo 5, Málaga', 180, 2800.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (8, 'Clínica Dental', 'Calle de la Salud 3, Bilbao', 95, 1500.25);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (9, 'Estudio de Yoga', 'Travesía del Silencio 7, Granada', 55, 600.00);
+INSERT INTO locales (id, nombre_completo, direccion_completa, metros_cuadrados, precio_alquiler) VALUES (10, 'Tienda de Electrónica', 'Centro Comercial Nevada, Granada', 110, 1900.00);

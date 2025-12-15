@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="generics.Box"/>
     <fullyQualifiedTypeName name="generics.Bicicleta"/>
     <fullyQualifiedTypeName name="generics.Trio"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="funcintlambdas.IntToBoolean"/>
     <fullyQualifiedTypeName name="funcintlambdas.StringToBoolean"/>
     <fullyQualifiedTypeName name="funcintlambdas._Predicate"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.miempresa.proyectofinal1.entity.Pregunta"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
 </qualifiedTypeNameHistroy>

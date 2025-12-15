@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${titulo}"></title>
+    
+    <!-- Estilos CSS modernos para la página de inicio -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            /* Centra todo el contenido vertical y horizontalmente en la página */
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            min-height: 100vh; /* Ocupa al menos toda la altura de la ventana */
+        }
+
+        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            text-align: center;
+            margin-bottom: 30px; /* Espacio debajo del título */
+        }
+
+        /* Contenedor para los botones para gestionarlos mejor */
+        .button-container {
+            display: flex;
+            gap: 15px; /* Espacio entre los botones */
+            margin-top: 20px;
+        }
+
+        /* Estilo general para los botones */
+        button {
+            padding: 12px 24px; /* Un poco más grandes para la página principal */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        button:hover {
+        	opacity: 0.9;
+        }
+
+        /* Color específico para el botón "Nuevo local" */
+        .btn-new {
+            background-color: #28a745; /* Verde */
+            color: white;
+        }
+
+        /* Color específico para el botón "Lista de locales" */
+        .btn-list {
+            background-color: #007bff; /* Azul, consistente con los títulos */
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1 th:text="${h1}">Bienvenido al Gestor de Locales</h1>
+    
+    <!-- Usamos un div contenedor para manejar el diseño de los botones -->
+    <div class="button-container">
+        <!-- Botón para crear nuevo local -->
+        <a th:href="@{/local/form/id/-1}">
+            <button class="btn-new">Nuevo local</button>
+        </a>
+        
+        <!-- Botón para ver la lista de locales -->
+        <a th:href="@{/local/todos}">
+            <button class="btn-list">Lista de locales</button>
+        </a>
+    </div>
+    
+</body>
+</html>

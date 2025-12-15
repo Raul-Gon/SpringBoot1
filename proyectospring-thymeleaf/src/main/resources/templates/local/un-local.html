@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title th:text="${titulo}"></title>
+	    
+	    <!-- Estilos CSS modernos -->
+	    <style>
+	        body {
+	            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	            background-color: #f4f7f6;
+	            margin: 0;
+	            padding: 20px;
+	            color: #333;
+	            line-height: 1.6;
+	        }
+	
+	        h2 {
+	            color: #007bff; /* Color azul moderno para el subtítulo */
+	            border-bottom: 2px solid #007bff;
+	            padding-bottom: 10px;
+	            text-aling: center;
+	        }
+	
+	        p.error-message {
+	            color: #dc3545; /* Rojo para mensajes de error */
+	            background-color: #f8d7da;
+	            border: 1px solid #f5c6cb;
+	            padding: 15px;
+	            border-radius: 5px;
+	        }
+	
+	        ul {
+	            list-style-type: none;
+	            padding: 0;
+	            background-color: #ffffff;
+	            border-radius: 8px;
+	            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	            max-width: 500px;
+	            margin-top: 20px;
+	        }
+	
+	        li {
+	            padding: 12px 20px;
+	            border-bottom: 1px solid #eee;
+	            display: flex;
+	            justify-content: space-between; /* Alinea la etiqueta a la izquierda y el valor a la derecha */
+	        }
+	        
+	        li:last-child {
+	            border-bottom: none;
+	        }
+	
+	        /* Estilo para los valores (span) */
+	        ul span {
+	            font-weight: bold;
+	            color: #555;
+	        }
+	
+	        /* Estilo para el botón */
+	        button {
+	            background-color: #28a745; /* Color verde para acción principal */
+	            color: white;
+	            padding: 12px 20px;
+	            border: none;
+	            border-radius: 5px;
+	            cursor: pointer;
+	            font-size: 16px;
+	            margin-top: 20px;
+	            transition: background-color 0.3s ease;
+	        }
+	
+	        button:hover {
+	            background-color: #218838; /* Verde más oscuro al pasar el ratón */
+	        }
+	    </style>
+	</head>
+	<body>
+	    <h1 th:text="${titulo}" style="color: #333;"></h1>
+	    <h2 th:text="${h2}"></h2>
+	    
+	    <!-- Añadida una clase al párrafo de error para darle estilo -->
+	    <p th:if="${local == null}" class="error-message">No hay ningún local para el identificador indicado.</p>
+	    
+	    <ul th:if="${local != null}">
+	        <li>
+	            <span>Id:</span>
+	            <span th:text="${local.id}"></span>
+	        </li>
+	        <li>
+	            <span>Nombre del local:</span>
+	            <span th:text="${local.nombreCompleto}"></span>
+	        </li>
+	        <li>
+	            <span>Dirección completa:</span>
+	            <span th:text="${local.direccionCompleta}"></span>
+	        </li>
+	        <li>
+	            <span>Metros cuadrados:</span>
+	            <span th:text="${local.metrosCuadrados}"></span>
+	        </li>
+	        <li>
+	            <span>Precio de alquiler:</span>
+	            <span th:text="${local.precioAlquiler}"></span>
+	        </li>
+	    </ul>
+	    
+	    <!-- El enlace y el botón siguen funcionando como antes -->
+	    <a th:href="@{/local/todos}"><button>Volver a la lista de locales</button></a>
+	            
+	</body>
+</html>
