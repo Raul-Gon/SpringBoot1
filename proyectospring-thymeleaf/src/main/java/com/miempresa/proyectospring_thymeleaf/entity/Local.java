@@ -5,6 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "locales")
@@ -14,9 +16,13 @@ public class Local {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	private String nombreCompleto;
+	@NotEmpty
 	private String direccionCompleta;
+	@NotNull
 	private int metrosCuadrados;
+	@NotNull
 	private double precioAlquiler;
 	
 	public Local() {

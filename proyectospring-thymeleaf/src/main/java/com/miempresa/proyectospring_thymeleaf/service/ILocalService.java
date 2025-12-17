@@ -9,5 +9,7 @@ public interface ILocalService {
 	Local localPorId(Long id);
 	List<Local> todosLosLocales();
 	Local localPorNombre(String nombre);
+	void borrarLocal(Long id);
+	Local guardarLocal(Local local);
 
 }

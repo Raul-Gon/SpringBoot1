@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="${titulo}"></title>
+		
+		<style>
+	        body {
+	            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	            background-color: #f4f7f6;
+	            margin: 0;
+	            padding: 20px;
+	            color: #333;
+	            line-height: 1.6;
+	        }
+	
+	        h2 {
+	            color: #007bff; /* Color azul moderno para el subtítulo */
+	            border-bottom: 2px solid #007bff;
+	            padding-bottom: 10px;
+	            text-align: center; /* Corregido: era "text-aling" */
+	        }
+	
+	        p.error-message {
+	            color: #dc3545; /* Rojo para mensajes de error */
+	            background-color: #f8d7da;
+	            border: 1px solid #f5c6cb;
+	            padding: 15px;
+	            border-radius: 5px;
+	        }
+	
+	       /* Estilo para el botón */
+	        button {
+	            background-color: #28a745; /* Color verde para acción principal */
+	            color: white;
+	            padding: 12px 20px;
+	            border: none;
+	            border-radius: 5px;
+	            cursor: pointer;
+	            font-size: 16px;
+	            margin-top: 20px;
+	            transition: background-color 0.3s ease;
+	        }
+	
+	        button:hover {
+	            background-color: #218838; /* Verde más oscuro al pasar el ratón */
+	        }
+	    </style>
+		
+	</head>
+	<body>
+		<h2 th:text="${h2}"></h2>
+		
+		<form th:action="@{/local/form}" th:object="${local}" method="post">
+			<input type="hidden" th:field="*{id}" />
+			
+			<label>Nombre Completo: </label><input type="text" th:field="*{nombreCompleto}" /><br />
+			<small th:if="${#fields.hasErrors('nombreCompleto')}" th:errors="*{nombreCompleto}"></small><br/>
+			
+			<label>Dirección Completa: </label><input type="text" th:field="*{direccionCompleta}" /><br />
+			<small th:if="${#fields.hasErrors('direccionCompleta')}" th:errors="*{direccionCompleta}"></small><br/>
+			
+			<label>Metros Cuadrados: </label><input type="number" th:field="*{metrosCuadrados}" /><br />
+			<small th:if="${#fields.hasErrors('metrosCuadrados')}" th:errors="*{metrosCuadrados}"></small><br/>
+			
+			<label>Precio Alquiler: </label><input type="number" th:field="*{precioAlquiler}" /><br />
+			<small th:if="${#fields.hasErrors('precioAlquiler')}" th:errors="*{precioAlquiler}"></small><br/>
+			
+			<button>Enviar</button>
+			<br />			
+		</form>
+		
+		<a th:href="@{/local/todos}"><button>Volver al listado completo</button></a>
+	
+	</body>
+</html>

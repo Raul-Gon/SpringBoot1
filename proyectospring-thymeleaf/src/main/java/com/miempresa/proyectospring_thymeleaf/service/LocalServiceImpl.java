@@ -29,4 +29,14 @@ public class LocalServiceImpl implements ILocalService {
 		return localRepository.findByNombreCompleto(nombre).orElse(null);
 	}
 
+	@Override
+	public void borrarLocal(Long id) {
+		localRepository.deleteById(id);		
+	}
+
+	@Override
+	public Local guardarLocal(Local local) {
+		return localRepository.saveAndFlush(local);
+	}
+
 }
